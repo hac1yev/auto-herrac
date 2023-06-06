@@ -1,0 +1,519 @@
+.all-announces-container {
+    max-width: 1200px!important;
+    width: 100%;
+}
+
+.vip-items-header h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #171D1C;
+}
+
+.vip-items-header p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #52606D;
+}
+
+.vip-items-button-header {
+  margin-top: 46px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.vip-items-button {
+  position: absolute;
+  left: 0;
+  width: 102.16px;
+  height: 50px;
+  border: 1px solid #B59CE4;
+  background-color: transparent;
+  border-radius: 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  color: #171D1C;
+}
+
+.all-announces-card {
+    display: flex!important;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.36);
+    border-radius: 10px;
+    padding: 21px 14px;
+}
+
+.all-announces-card-image {
+    width: 330px;
+    height: 247px;
+    object-fit: cover;
+}
+
+.all-announces-content {
+    padding: 30px 42px 51px 42px;
+}
+
+.all-announces-content h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #171D1C;
+}
+
+.all-announces-content p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #171D1C;
+    margin-top: 20px;
+}
+
+
+.announce-card-bids {
+    display: flex;
+    justify-content: space-between;
+    border: 1px dotted #ccc;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+  }
+  
+  .announce-current-bid {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .announce-current-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .announce-current-img img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .announce-current-price {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .announce-bids {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .announce-currrent-bid-price {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #171d1c;
+  }
+  
+  .announce-current-bid-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #43b055;
+  }
+  
+  .announce-buy-now-bid {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  
+  .announce-buy-now-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+  }
+
+  .announce-buy-now-img img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .announce-buy-now-price {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .announce-buy-now-bid-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #ee4730;
+  }
+  
+  .announce-buy-now-bid-price {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #171d1c;
+  }
+  
+  .announce-card-footer {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .announce-card-time {
+    width: 65%;
+    border-right: 1px solid #ccc;
+  }
+  
+  .announce-card-time span {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #52606d;
+  }
+  
+  .announce-card-time-price {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .announce-card-time-price span {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #43b055;
+  }
+  
+  .announce-card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .announce-card-button button {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #db0a13 0%, #f49b1d 100%);
+    box-shadow: -1.04px 4.891px 20px rgba(69, 49, 183, 0.5);
+    border-radius: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+
+@media screen and (max-width: 1100px) {
+    .all-announces-card {
+        padding: 21px 14px;
+    }
+
+    .all-announces-card-image {
+        width: 300px;
+        height: 227px;
+    }
+
+    .all-announces-content {
+        padding: 10px 22px 25px 22px;
+    }
+
+    .all-announces-content h5 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .all-announces-content p {
+        font-size: 18px;
+        line-height: 20px;
+
+    }
+
+
+    .announce-card-button button {
+      font-size: 16px;
+      height: 40px;
+    }
+
+    .announce-card-time-price span {
+      font-size: 16px;
+    }
+
+    .announce-card-time span {
+      font-size: 16px;
+    }
+
+    .announce-card-footer {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .announce-buy-now-bid-price {
+      font-size: 17px;
+    }
+
+    .announce-buy-now-bid-text {
+      font-size: 11px;
+    }
+
+    .announce-buy-now-img img {
+      width: 35px;
+      height: 35px;
+    }
+
+    .announce-current-img img {
+      width: 35px;
+      height: 35px;
+    }
+
+    .announce-buy-now-img {
+      padding: 7px;
+    }
+
+    .announce-buy-now-bid {
+      padding: 0 8px;
+    }
+
+    .announce-currrent-bid-price {
+      font-size: 17px;
+    }
+    
+    .announce-current-bid-text {
+      font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .all-announces-card {
+        padding: 21px 14px;
+    }
+
+    .all-announces-card-image {
+        width: 250px;
+        height: 190px;
+    }
+
+    .all-announces-content {
+        padding: 10px 15px 18px 15px;
+    }
+
+    .all-announces-content h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .all-announces-content p {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 10px;
+    }
+
+
+    .announce-card-button button {
+      font-size: 15px;
+      height: 35px;
+    }
+
+    .announce-card-time-price span {
+      font-size: 13px;
+    }
+
+    .announce-card-time span {
+      font-size: 13px;
+    }
+
+    .announce-card-footer {
+      margin-top: 13px;
+      margin-bottom: 13px;
+    }
+
+    .announce-buy-now-bid-price {
+      font-size: 16px;
+    }
+
+    .announce-buy-now-bid-text {
+      font-size: 10px;
+    }
+
+    .announce-buy-now-img img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .announce-current-img img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .announce-buy-now-img {
+      padding: 6px;
+    }
+
+    .announce-buy-now-bid {
+      padding: 0 7px;
+    }
+
+    .announce-currrent-bid-price {
+      font-size: 16px;
+    }
+    
+    .announce-current-bid-text {
+      font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .all-announces-card {
+        padding: 14px 9px;
+    }
+
+    .all-announces-card-image {
+        width: 200px;
+        height: 140px;
+    }
+
+    .all-announces-content {
+        padding: 5px 10px 9px 10px;
+    }
+
+    .all-announces-content h5 {
+        font-size: 13px;
+        line-height: 14px;
+    }
+    
+    .all-announces-content p {
+        font-size: 13px;
+        line-height: 14px;
+        margin-top: 10px;
+    }
+
+
+    .announce-card-button button {
+      font-size: 13px;
+      height: 30px;
+    }
+
+    .announce-card-time-price span {
+      font-size: 12px;
+    }
+
+    .announce-card-time span {
+      font-size: 12px;
+    }
+
+    .announce-card-footer {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .announce-buy-now-bid-price {
+      font-size: 14px;
+    }
+
+    .announce-buy-now-bid-text {
+      font-size: 8px;
+    }
+
+    .announce-buy-now-img img {
+      width: 25px;
+      height: 25px;
+    }
+
+    .announce-current-img img {
+      width: 25px;
+      height: 25px;
+    }
+
+    .announce-buy-now-img {
+      padding: 5px;
+    }
+
+    .announce-buy-now-bid {
+      padding: 0 6px;
+    }
+
+    .announce-currrent-bid-price {
+      font-size: 14px;
+    }
+    
+    .announce-current-bid-text {
+      font-size: 8px;
+    }
+}
+

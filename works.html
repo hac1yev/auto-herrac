@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AUCTION</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/works.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- OWL CAROUSEL CSS -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <section class="header">
+      <header>
+          <div class="header-container">
+              <div class="logo-sec">
+                 <a href="./index.html"> <img src="./img/logo.png" alt=""></a>
+              </div>
+              <div class="second-sec">
+                  <div class="num-search">
+                      <label class="searh-label" for="">
+                          <input placeholder="Search for brand, model...." class="search-input" type="search" name="" id="">
+                          <img src="./img/search.png" alt="">
+                      </label>
+                      <p class="number-p">+ 994 (077) 777-7070</p>
+                  </div>
+                  <div class="lang-divs">
+                        <div class="select">
+                          <span class="selected">AZ</span>
+                          <div class="caret"></div>
+                        </div>
+                        <ul class="menu">
+                          <li>AZ</li>
+                          <li>EN</li>
+                          <li class="active">RU</li>
+                        </ul>
+                  </div>
+              <a href="login.html">
+                    <img class="profile-img-header" src="./img/profile.png" alt="">
+              </a>
+              <button class="mob-menu-open">
+                    <img class="open-icon" src="./img/menu-icon.png" alt="">
+              </button>
+              <button class="mob-menu-close">
+                    <img class="close-icon" src="./img/close.png" alt="">
+              </button>
+            </div>
+              </div>
+          </div>
+      </header>
+      <!-- DESKTOP NAV START -->
+      <nav>
+        <div class="wrapper mobile-menu-div">
+          <ul class="nav-links">
+            <li class="nav-link-li" id="how_works_li">
+              <a  href="#" class="desktop-item main-a">Necə İşləyir<img class="desktop-arrow" src="./img/downArrow.png" alt="downArrow" /></a>
+              <ul class="drop-menu">
+                <li><a class="dropdown-links" href="works.html#elan-yerlesdirilmesi">Elan Yerləşdirilməsi</a></li>
+                <li><a class="dropdown-links" href="works.html#auksiyon-nece-isleyir">Auksiyon necə işləyir</a></li>
+                <li><a class="dropdown-links" href="works.html#yoxlanilmis-tik-nedir">Yoxlanımış tik nədir</a></li>
+                <li><a class="dropdown-links" href="works.html#qiymetlendirme-xidmeti">Qiymətləndirmə Xidməti</a></li>
+                <li><a class="dropdown-links" href="works.html#ehtimal-olunan-qiymet">Ehtimal Olunan qiymət</a></li>
+                <li><a class="dropdown-links" href="works.html#faq">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="nav-link-li">
+              <a href="./filter.html" class="desktop-item main-a">Axtarış</a>
+            </li>
+            <li class="nav-link-li"><a class="main-a" href="./all-announces2.html">Bütün Elanlar</a></li>
+            <li class="nav-link-li"><a class="main-a" href="#">Bugün Oynanılanlar</a></li>
+            <li class="nav-link-li"><a class="main-a" href="./calendar.html">Auksion Kalendari</a></li>
+            <li class="nav-link-li"><a class="main-a" href="#">Ağır Texnikalar</a></li>
+            <li class="nav-link-li"><a class="main-a" href="./add-announce.html">Elan Yerləşdir</a></li>
+          </ul>
+          <a href="login.html">
+            <img class="profile-img" src="./img/profile.png" alt="">
+          </a>
+        </div>
+      </nav>
+      <!-- DESKTOP NAV FINISH -->
+  </section>
+
+ <!-- MOBIL SEARCH SECTION START -->
+  <section class="mobile-search">
+      <label class="searh-label" for="">
+          <input placeholder="Search for brand, model..." class="search-input" type="search" name="" id="">
+          <img src="./img/search.png" alt="">
+      </label>
+  </section>
+<!-- MOBIL SEARCH SECTION FINISH -->
+
+
+<!-- WORKS SECCTION -->
+
+  <section class="works">
+    <div class="container works-container">
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <div class="how-works-menu">
+            <div class="how-works-menu-header">
+              <span>Necə İşləyir</span>
+            </div>
+            <div
+              class="how-works-menu-body nav flex-column nav-pills change-tab"
+              id="v-pills-tab" 
+              role="tablist" 
+              aria-orientation="vertical"
+            >
+              <a class="how-works-link nav-link active" id="announce-settle" data-toggle="pill" href="#elan-yerlesdirilmesi" role="tab" aria-controls="announce-settle" aria-selected="true">
+                <span>Elan Yerləşdirilməsi</span>
+                <span class="works-active-dot"></span>
+              </a>
+              <a class="how-works-link nav-link" id="aucsion" data-toggle="pill" href="#auksiyon-nece-isleyir" role="tab" aria-controls="aucsion" aria-selected="false">
+                <span>Auksiyon necə işləyir</span>
+                <span class="works-active-dot"></span>
+              </a>
+              <a class="how-works-link nav-link" id="checked-tik" data-toggle="pill" href="#yoxlanilmis-tik-nedir" role="tab" aria-controls="checked-tik" aria-selected="false">
+                <span>Yoxlanılmış tik nədir</span>
+                <span class="works-active-dot"></span>
+              </a>
+              <a class="how-works-link nav-link" id="value-serve" data-toggle="pill" href="#qiymetlendirme-xidmeti" role="tab" aria-controls="value-serve" aria-selected="false">
+                <span>Qiymətləndirmə Xidməti</span>
+                <span class="works-active-dot"></span>
+              </a>
+              <a class="how-works-link nav-link" id="probability-price" data-toggle="pill" href="#ehtimal-olunan-qiymet" role="tab" aria-controls="probability-price" aria-selected="false">
+                <span>Ehtimal Olunan qiymət</span>
+                <span class="works-active-dot"></span>
+              </a>
+              <a class="how-works-link nav-link" id="faq-tab" data-toggle="pill" href="#faq" role="tab" aria-controls="faq-tab2" aria-selected="false">
+                <span>FAQ</span>
+                <span class="works-active-dot"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div
+              class="how-works-inner card tab-pane fade show active"
+              id="elan-yerlesdirilmesi"
+              role="tabpanel"
+              aria-labelledby="announce-settle"
+            >
+              <div class="how-works-inner-header">
+                <span>Elan Yerləşdirilməsi</span>
+              </div>
+              <div class="how-works-inner-information">
+                <div class="how-works-img">
+                  <img
+                    src="./img/worksImg.webp"
+                    class="card-img"
+                    alt="worksImg"
+                  />
+                </div>
+                <div class="how-works-inner-description">
+                  <span>
+                    Wherein their. You'll every seed grass dominion were for
+                    sea fourth unto multiply living kind cattle herb third i
+                    fifth green. Gathering. Also earth subdue can't isn't
+                    Beast day given moving give under second subdue earth
+                    gathering let so gathered first divide won't whose brought
+                    every appear, his moving fowl yielding dry second to
+                    they're day thing fill in fruitful set fourth. Likeness
+                    first creeping given created bring won't. Had third void
+                    don't subdue upon unto let moved, all heaven. Creeping
+                    earth fish two hath one Moving which he won't darkness.
+                    Yielding, that them light male isn't darkness. A divided
+                    void to, and. Him you lights don't green. Stars is spirit
+                    stars fish unto, god was were. Midst, living that also
+                    beginning behold from. Female they're male a in that of,
+                    likeness. To his place creepeth unto may hath gathering
+                    creature She'd two light day life cattle. Gathering of
+                    under there green. Above subdue midst Upon unto. Fill had
+                    whose also under, abundantly there of appear signs deep
+                    tree light, beginning replenish living forth let him.
+                    Green sixth itself evening day them, moving cattle, behold
+                    they're tree, for fruit firmament seasons abundantly give.
+                    Kind fowl kind air, won't. You'll said image likeness herb
+                    midst for bearing two likeness. There waters is brought
+                    you'll be fifth Grass creepeth said one give days forth
+                    without living were moving moved. Let also behold great
+                    yielding lights. Saying herb third evening, bring let
+                    can't isn't So behold his fill i life called rule signs
+                    god. Beast wherein to life replenish, fruit own greater
+                    whose moving give, fowl stars creepeth without multiply
+                    air isn't. Every gathering lights that man us spirit air
+                    fowl fly divide all fly make called void place creature
+                    sixth for fourth sixth form give waters gathering created
+                    forth fish you'll had their form gathering winged be
+                    gathered. Days divided fowl brought Air was waters herb
+                    yielding void meat unto, to also. Darkness, you'll.
+                    Abundantly be own days. Herb earth together tree. Land.
+                    Seasons be without sixth fly, his set also and wherein
+                    under abundantly signs saying gathered. So first, you're
+                    lights, she'd whose them can't without darkness very green
+                    tree it whose grass fourth above gathered Hath there
+                    winged. The they're. Form their is. Whose i, fly. Unto
+                    have him dry fish lesser waters face. Appear moveth appear
+                    isn't sixth male life face be all sixth likeness meat.
+                    Were winged blessed fourth sixth. Under. Night in you'll,
+                    were Moving day make god May i beast yielding. Above
+                    Gathered fourth all don't appear that fruit cattle. That
+                    from there likeness land bearing fruit green very also was
+                    said third Doesn't meat under may make was May hath open
+                    set. Whales, man. Fly Isn't. Dry. Behold be subdue doesn't
+                    kind made over multiply sea sixth together unto land under
+                    fruitful. Signs image second. Of there living evening.
+                    Dry, seas. Winged replenish unto. Male were above female
+                    void likeness moved of earth. Made creature seasons
+                    replenish gathering midst face tree he kind there. Every.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="how-works-inner card tab-pane fade"
+              id="auksiyon-nece-isleyir"
+              role="tabpanel"
+              aria-labelledby="aucsion"
+            >
+              <div class="how-works-inner-header">
+                <span>Auksiyon Necə İşləyir</span>
+              </div>
+              <div class="how-works-inner-information">
+                <div class="how-works-img">
+                  <img
+                    src="https://i.ytimg.com/vi/Uy-mSOwUndM/maxresdefault.jpg"
+                    class="card-img"
+                    alt="worksImg"
+                  />
+                </div>
+                <div class="how-works-inner-description">
+                  <span>
+                    Wherein their. You'll every seed grass dominion were for
+                    sea fourth unto multiply living kind cattle herb third i
+                    fifth green. Gathering. Also earth subdue can't isn't
+                    Beast day given moving give under second subdue earth
+                    gathering let so gathered first divide won't whose brought
+                    every appear, his moving fowl yielding dry second to
+                    they're day thing fill in fruitful set fourth. Likeness
+                    first creeping given created bring won't. Had third void
+                    don't subdue upon unto let moved, all heaven. Creeping
+                    earth fish two hath one Moving which he won't darkness.
+                    Yielding, that them light male isn't darkness. A divided
+                    void to, and. Him you lights don't green. Stars is spirit
+                    stars fish unto, god was were. Midst, living that also
+                    beginning behold from. Female they're male a in that of,
+                    likeness. To his place creepeth unto may hath gathering
+                    creature She'd two light day life cattle. Gathering of
+                    under there green. Above subdue midst Upon unto. Fill had
+                    whose also under, abundantly there of appear signs deep
+                    tree light, beginning replenish living forth let him.
+                    Green sixth itself evening day them, moving cattle, behold
+                    they're tree, for fruit firmament seasons abundantly give.
+                    Kind fowl kind air, won't. You'll said image likeness herb
+                    midst for bearing two likeness. There waters is brought
+                    you'll be fifth Grass creepeth said one give days forth
+                    without living were moving moved. Let also behold great
+                    yielding lights. Saying herb third evening, bring let
+                    can't isn't So behold his fill i life called rule signs
+                    god. Beast wherein to life replenish, fruit own greater
+                    whose moving give, fowl stars creepeth without multiply
+                    air isn't. Every gathering lights that man us spirit air
+                    fowl fly divide all fly make called void place creature
+                    sixth for fourth sixth form give waters gathering created
+                    forth fish you'll had their form gathering winged be
+                    gathered. Days divided fowl brought Air was waters herb
+                    yielding void meat unto, to also. Darkness, you'll.
+                    Abundantly be own days. Herb earth together tree. Land.
+                    Seasons be without sixth fly, his set also and wherein
+                    under abundantly signs saying gathered. So first, you're
+                    lights, she'd whose them can't without darkness very green
+                    tree it whose grass fourth above gathered Hath there
+                    winged. The they're. Form their is. Whose i, fly. Unto
+                    have him dry fish lesser waters face. Appear moveth appear
+                    isn't sixth male life face be all sixth likeness meat.
+                    Were winged blessed fourth sixth. Under. Night in you'll,
+                    were Moving day make god May i beast yielding. Above
+                    Gathered fourth all don't appear that fruit cattle. That
+                    from there likeness land bearing fruit green very also was
+                    said third Doesn't meat under may make was May hath open
+                    set. Whales, man. Fly Isn't. Dry. Behold be subdue doesn't
+                    kind made over multiply sea sixth together unto land under
+                    fruitful. Signs image second. Of there living evening.
+                    Dry, seas. Winged replenish unto. Male were above female
+                    void likeness moved of earth. Made creature seasons
+                    replenish gathering midst face tree he kind there. Every.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="how-works-inner card tab-pane fade"
+              id="yoxlanilmis-tik-nedir"
+              role="tabpanel"
+              aria-labelledby="checked-tik"
+            >
+              <div class="how-works-inner-header">
+                <span>Yoxlanılmış Tik Nədir</span>
+              </div>
+              <div class="how-works-inner-information">
+                <div class="how-works-img">
+                  <img
+                    src="https://www.pometop.com/images/thumbs/000/0000254_mercedes-2016-c200d-bluetec-siyah-ici-bej-162-km-serbakimli.jpeg"
+                    class="card-img"
+                    alt="worksImg"
+                  />
+                </div>
+                <div class="how-works-inner-description">
+                  <span>
+                    Wherein their. You'll every seed grass dominion were for
+                    sea fourth unto multiply living kind cattle herb third i
+                    fifth green. Gathering. Also earth subdue can't isn't
+                    Beast day given moving give under second subdue earth
+                    gathering let so gathered first divide won't whose brought
+                    every appear, his moving fowl yielding dry second to
+                    they're day thing fill in fruitful set fourth. Likeness
+                    first creeping given created bring won't. Had third void
+                    don't subdue upon unto let moved, all heaven. Creeping
+                    earth fish two hath one Moving which he won't darkness.
+                    Yielding, that them light male isn't darkness. A divided
+                    void to, and. Him you lights don't green. Stars is spirit
+                    stars fish unto, god was were. Midst, living that also
+                    beginning behold from. Female they're male a in that of,
+                    likeness. To his place creepeth unto may hath gathering
+                    creature She'd two light day life cattle. Gathering of
+                    under there green. Above subdue midst Upon unto. Fill had
+                    whose also under, abundantly there of appear signs deep
+                    tree light, beginning replenish living forth let him.
+                    Green sixth itself evening day them, moving cattle, behold
+                    they're tree, for fruit firmament seasons abundantly give.
+                    Kind fowl kind air, won't. You'll said image likeness herb
+                    midst for bearing two likeness. There waters is brought
+                    you'll be fifth Grass creepeth said one give days forth
+                    without living were moving moved. Let also behold great
+                    yielding lights. Saying herb third evening, bring let
+                    can't isn't So behold his fill i life called rule signs
+                    god. Beast wherein to life replenish, fruit own greater
+                    whose moving give, fowl stars creepeth without multiply
+                    air isn't. Every gathering lights that man us spirit air
+                    fowl fly divide all fly make called void place creature
+                    sixth for fourth sixth form give waters gathering created
+                    forth fish you'll had their form gathering winged be
+                    gathered. Days divided fowl brought Air was waters herb
+                    yielding void meat unto, to also. Darkness, you'll.
+                    Abundantly be own days. Herb earth together tree. Land.
+                    Seasons be without sixth fly, his set also and wherein
+                    under abundantly signs saying gathered. So first, you're
+                    lights, she'd whose them can't without darkness very green
+                    tree it whose grass fourth above gathered Hath there
+                    winged. The they're. Form their is. Whose i, fly. Unto
+                    have him dry fish lesser waters face. Appear moveth appear
+                    isn't sixth male life face be all sixth likeness meat.
+                    Were winged blessed fourth sixth. Under. Night in you'll,
+                    were Moving day make god May i beast yielding. Above
+                    Gathered fourth all don't appear that fruit cattle. That
+                    from there likeness land bearing fruit green very also was
+                    said third Doesn't meat under may make was May hath open
+                    set. Whales, man. Fly Isn't. Dry. Behold be subdue doesn't
+                    kind made over multiply sea sixth together unto land under
+                    fruitful. Signs image second. Of there living evening.
+                    Dry, seas. Winged replenish unto. Male were above female
+                    void likeness moved of earth. Made creature seasons
+                    replenish gathering midst face tree he kind there. Every.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="how-works-inner card tab-pane fade"
+              id="qiymetlendirme-xidmeti"
+              role="tabpanel"
+              aria-labelledby="value-serve"
+            >
+              <div class="how-works-inner-header">
+                <span>Qiymətləndirmə Xidməti</span>
+              </div>
+              <div class="how-works-inner-information">
+                <div class="how-works-img">
+                  <img
+                    src="https://i.ytimg.com/vi/4qFGWJSIEng/maxresdefault.jpg"
+                    class="card-img"
+                    alt="worksImg"
+                  />
+                </div>
+                <div class="how-works-inner-description">
+                  <span>
+                    Wherein their. You'll every seed grass dominion were for
+                    sea fourth unto multiply living kind cattle herb third i
+                    fifth green. Gathering. Also earth subdue can't isn't
+                    Beast day given moving give under second subdue earth
+                    gathering let so gathered first divide won't whose brought
+                    every appear, his moving fowl yielding dry second to
+                    they're day thing fill in fruitful set fourth. Likeness
+                    first creeping given created bring won't. Had third void
+                    don't subdue upon unto let moved, all heaven. Creeping
+                    earth fish two hath one Moving which he won't darkness.
+                    Yielding, that them light male isn't darkness. A divided
+                    void to, and. Him you lights don't green. Stars is spirit
+                    stars fish unto, god was were. Midst, living that also
+                    beginning behold from. Female they're male a in that of,
+                    likeness. To his place creepeth unto may hath gathering
+                    creature She'd two light day life cattle. Gathering of
+                    under there green. Above subdue midst Upon unto. Fill had
+                    whose also under, abundantly there of appear signs deep
+                    tree light, beginning replenish living forth let him.
+                    Green sixth itself evening day them, moving cattle, behold
+                    they're tree, for fruit firmament seasons abundantly give.
+                    Kind fowl kind air, won't. You'll said image likeness herb
+                    midst for bearing two likeness. There waters is brought
+                    you'll be fifth Grass creepeth said one give days forth
+                    without living were moving moved. Let also behold great
+                    yielding lights. Saying herb third evening, bring let
+                    can't isn't So behold his fill i life called rule signs
+                    god. Beast wherein to life replenish, fruit own greater
+                    whose moving give, fowl stars creepeth without multiply
+                    air isn't. Every gathering lights that man us spirit air
+                    fowl fly divide all fly make called void place creature
+                    sixth for fourth sixth form give waters gathering created
+                    forth fish you'll had their form gathering winged be
+                    gathered. Days divided fowl brought Air was waters herb
+                    yielding void meat unto, to also. Darkness, you'll.
+                    Abundantly be own days. Herb earth together tree. Land.
+                    Seasons be without sixth fly, his set also and wherein
+                    under abundantly signs saying gathered. So first, you're
+                    lights, she'd whose them can't without darkness very green
+                    tree it whose grass fourth above gathered Hath there
+                    winged. The they're. Form their is. Whose i, fly. Unto
+                    have him dry fish lesser waters face. Appear moveth appear
+                    isn't sixth male life face be all sixth likeness meat.
+                    Were winged blessed fourth sixth. Under. Night in you'll,
+                    were Moving day make god May i beast yielding. Above
+                    Gathered fourth all don't appear that fruit cattle. That
+                    from there likeness land bearing fruit green very also was
+                    said third Doesn't meat under may make was May hath open
+                    set. Whales, man. Fly Isn't. Dry. Behold be subdue doesn't
+                    kind made over multiply sea sixth together unto land under
+                    fruitful. Signs image second. Of there living evening.
+                    Dry, seas. Winged replenish unto. Male were above female
+                    void likeness moved of earth. Made creature seasons
+                    replenish gathering midst face tree he kind there. Every.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="how-works-inner card tab-pane fade"
+              id="ehtimal-olunan-qiymet"
+              role="tabpanel"
+              aria-labelledby="probability-price"
+            >
+              <div class="how-works-inner-header">
+                <span>Ehtimal Olunan Qiymət</span>
+              </div>
+              <div class="how-works-inner-information">
+                <div class="how-works-img">
+                  <img
+                    src="https://i.ytimg.com/vi/jEKwh5GG3iA/maxresdefault.jpg"
+                    class="card-img"
+                    alt="worksImg"
+                  />
+                </div>
+                <div class="how-works-inner-description">
+                  <span>
+                    Wherein their. You'll every seed grass dominion were for
+                    sea fourth unto multiply living kind cattle herb third i
+                    fifth green. Gathering. Also earth subdue can't isn't
+                    Beast day given moving give under second subdue earth
+                    gathering let so gathered first divide won't whose brought
+                    every appear, his moving fowl yielding dry second to
+                    they're day thing fill in fruitful set fourth. Likeness
+                    first creeping given created bring won't. Had third void
+                    don't subdue upon unto let moved, all heaven. Creeping
+                    earth fish two hath one Moving which he won't darkness.
+                    Yielding, that them light male isn't darkness. A divided
+                    void to, and. Him you lights don't green. Stars is spirit
+                    stars fish unto, god was were. Midst, living that also
+                    beginning behold from. Female they're male a in that of,
+                    likeness. To his place creepeth unto may hath gathering
+                    creature She'd two light day life cattle. Gathering of
+                    under there green. Above subdue midst Upon unto. Fill had
+                    whose also under, abundantly there of appear signs deep
+                    tree light, beginning replenish living forth let him.
+                    Green sixth itself evening day them, moving cattle, behold
+                    they're tree, for fruit firmament seasons abundantly give.
+                    Kind fowl kind air, won't. You'll said image likeness herb
+                    midst for bearing two likeness. There waters is brought
+                    you'll be fifth Grass creepeth said one give days forth
+                    without living were moving moved. Let also behold great
+                    yielding lights. Saying herb third evening, bring let
+                    can't isn't So behold his fill i life called rule signs
+                    god. Beast wherein to life replenish, fruit own greater
+                    whose moving give, fowl stars creepeth without multiply
+                    air isn't. Every gathering lights that man us spirit air
+                    fowl fly divide all fly make called void place creature
+                    sixth for fourth sixth form give waters gathering created
+                    forth fish you'll had their form gathering winged be
+                    gathered. Days divided fowl brought Air was waters herb
+                    yielding void meat unto, to also. Darkness, you'll.
+                    Abundantly be own days. Herb earth together tree. Land.
+                    Seasons be without sixth fly, his set also and wherein
+                    under abundantly signs saying gathered. So first, you're
+                    lights, she'd whose them can't without darkness very green
+                    tree it whose grass fourth above gathered Hath there
+                    winged. The they're. Form their is. Whose i, fly. Unto
+                    have him dry fish lesser waters face. Appear moveth appear
+                    isn't sixth male life face be all sixth likeness meat.
+                    Were winged blessed fourth sixth. Under. Night in you'll,
+                    were Moving day make god May i beast yielding. Above
+                    Gathered fourth all don't appear that fruit cattle. That
+                    from there likeness land bearing fruit green very also was
+                    said third Doesn't meat under may make was May hath open
+                    set. Whales, man. Fly Isn't. Dry. Behold be subdue doesn't
+                    kind made over multiply sea sixth together unto land under
+                    fruitful. Signs image second. Of there living evening.
+                    Dry, seas. Winged replenish unto. Male were above female
+                    void likeness moved of earth. Made creature seasons
+                    replenish gathering midst face tree he kind there. Every.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="how-works-inner card tab-pane fade"
+              id="faq"
+              role="tabpanel"
+              aria-labelledby="faq-tab"
+            >
+              <div class="how-works-inner-header">
+                <span>Faq</span>
+              </div>
+              <div class="how-works-inner-information">
+                <div class="how-works-img">
+                  <img
+                    src="https://cdn.motor1.com/images/mgl/1ZZx9K/s1/lamborghini-revuelto-2023-rendering-von-dmc.webp"
+                    class="card-img"
+                    alt="worksImg"
+                  />
+                </div>
+                <div class="how-works-inner-description">
+                  <span>
+                    Wherein their. You'll every seed grass dominion were for
+                    sea fourth unto multiply living kind cattle herb third i
+                    fifth green. Gathering. Also earth subdue can't isn't
+                    Beast day given moving give under second subdue earth
+                    gathering let so gathered first divide won't whose brought
+                    every appear, his moving fowl yielding dry second to
+                    they're day thing fill in fruitful set fourth. Likeness
+                    first creeping given created bring won't. Had third void
+                    don't subdue upon unto let moved, all heaven. Creeping
+                    earth fish two hath one Moving which he won't darkness.
+                    Yielding, that them light male isn't darkness. A divided
+                    void to, and. Him you lights don't green. Stars is spirit
+                    stars fish unto, god was were. Midst, living that also
+                    beginning behold from. Female they're male a in that of,
+                    likeness. To his place creepeth unto may hath gathering
+                    creature She'd two light day life cattle. Gathering of
+                    under there green. Above subdue midst Upon unto. Fill had
+                    whose also under, abundantly there of appear signs deep
+                    tree light, beginning replenish living forth let him.
+                    Green sixth itself evening day them, moving cattle, behold
+                    they're tree, for fruit firmament seasons abundantly give.
+                    Kind fowl kind air, won't. You'll said image likeness herb
+                    midst for bearing two likeness. There waters is brought
+                    you'll be fifth Grass creepeth said one give days forth
+                    without living were moving moved. Let also behold great
+                    yielding lights. Saying herb third evening, bring let
+                    can't isn't So behold his fill i life called rule signs
+                    god. Beast wherein to life replenish, fruit own greater
+                    whose moving give, fowl stars creepeth without multiply
+                    air isn't. Every gathering lights that man us spirit air
+                    fowl fly divide all fly make called void place creature
+                    sixth for fourth sixth form give waters gathering created
+                    forth fish you'll had their form gathering winged be
+                    gathered. Days divided fowl brought Air was waters herb
+                    yielding void meat unto, to also. Darkness, you'll.
+                    Abundantly be own days. Herb earth together tree. Land.
+                    Seasons be without sixth fly, his set also and wherein
+                    under abundantly signs saying gathered. So first, you're
+                    lights, she'd whose them can't without darkness very green
+                    tree it whose grass fourth above gathered Hath there
+                    winged. The they're. Form their is. Whose i, fly. Unto
+                    have him dry fish lesser waters face. Appear moveth appear
+                    isn't sixth male life face be all sixth likeness meat.
+                    Were winged blessed fourth sixth. Under. Night in you'll,
+                    were Moving day make god May i beast yielding. Above
+                    Gathered fourth all don't appear that fruit cattle. That
+                    from there likeness land bearing fruit green very also was
+                    said third Doesn't meat under may make was May hath open
+                    set. Whales, man. Fly Isn't. Dry. Behold be subdue doesn't
+                    kind made over multiply sea sixth together unto land under
+                    fruitful. Signs image second. Of there living evening.
+                    Dry, seas. Winged replenish unto. Male were above female
+                    void likeness moved of earth. Made creature seasons
+                    replenish gathering midst face tree he kind there. Every.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer">
+        <img class="footer-top-img" style="width: 100%;" src="./img/top.png" alt="">
+        <div class="footer-container">
+        <div class="footer-top">
+          <div class="cat">
+            <h2>Categories</h2>
+            <a  href="#">Axtarış</a>
+            <a href="all-announces2.html">Bütün Elanlar</a>
+            <a href="#">Bugün Oynanılanlar</a>
+            <a href="./calendar.html">Auksion Kalendari</a>
+            <a href="#">Ağır Texnikalar</a>
+            <a href="./add-announce.html">Elan Yerləşdir</a>
+          </div>
+          <div class="about">
+            <h2>About</h2>
+            <a href="#">Necə İşləyir</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Qiymətləndirmə Xidməti</a>
+          </div>
+          <div class="contact">
+            <div class="contact1">
+              <h2>Bizimlə Əlaqə</h2>
+              <div class="col1">
+                <img src="./img/tel.png" alt="">
+                <span>(646) 663-4575</span>
+              </div>
+              <div class="col2">
+                <img src="./img/tea.png" alt="">
+                <span>(646) 663-4575</span>
+              </div>
+              <div class="col3">
+                <img src="./img/mes.png" alt="">
+                <span>help@engotheme.com</span>
+              </div>
+              <div class="col4">
+                <img src="./img/tg.png" alt="">
+                <span>1201 Broadway Suite</span>
+              </div>
+            </div>
+            <div class="contact2">
+              <a href="#" class="fb">
+                <img src="./img/fb.png" alt="">
+              </a>
+              <a href="#" class="tw">
+                <img src="./img/tw.png" alt="">
+              </a>
+              <a href="#" class="in">
+                <img src="./img/in.png" alt="">
+              </a>
+              <a href="#" class="link">
+                <img src="./img/link.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <hr class="footer-hr" color="#D9D9D9">
+          <div class="footer-copy">
+            <img src="./img/logo.png" alt="">
+            <p>© Copyright 2023</p>
+          </div>
+        </div>
+        </div>
+    </div>
+    </footer>
+    
+    <!-- OWL CAROUSEL JS -->
+    <script src="./js/jquery.js" type="text/javascript"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

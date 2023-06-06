@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AUCTION</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/fav.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- OWL CAROUSEL CSS -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <section class="header">
+      <header>
+          <div class="header-container">
+              <div class="logo-sec">
+                 <a href="./index.html"> <img src="./img/logo.png" alt=""></a>
+              </div>
+              <div class="second-sec">
+                  <div class="num-search">
+                      <label class="searh-label" for="">
+                          <input placeholder="Search for brand, model...." class="search-input" type="search" name="" id="">
+                          <img src="./img/search.png" alt="">
+                      </label>
+                      <p class="number-p">+ 994 (077) 777-7070</p>
+                  </div>
+                  <div class="lang-divs">
+                        <div class="select">
+                          <span class="selected">AZ</span>
+                          <div class="caret"></div>
+                        </div>
+                        <ul class="menu">
+                          <li>AZ</li>
+                          <li>EN</li>
+                          <li class="active">RU</li>
+                        </ul>
+                  </div>
+              <a href="login.html">
+                    <img class="profile-img-header" src="./img/profile.png" alt="">
+              </a>
+              <button class="mob-menu-open">
+                    <img class="open-icon" src="./img/menu-icon.png" alt="">
+              </button>
+              <button class="mob-menu-close">
+                    <img class="close-icon" src="./img/close.png" alt="">
+              </button>
+            </div>
+              </div>
+          </div>
+      </header>
+      <!-- DESKTOP NAV START -->
+      <nav>
+        <div class="wrapper mobile-menu-div">
+          <ul class="nav-links">
+            <li class="nav-link-li" id="how_works_li">
+              <a  href="#" class="desktop-item main-a">Necə İşləyir<img class="desktop-arrow" src="./img/downArrow.png" alt="downArrow" /></a>
+              <ul class="drop-menu">
+                <li><a class="dropdown-links" href="works.html#elan-yerlesdirilmesi">Elan Yerləşdirilməsi</a></li>
+                <li><a class="dropdown-links" href="works.html#auksiyon-nece-isleyir">Auksiyon necə işləyir</a></li>
+                <li><a class="dropdown-links" href="works.html#yoxlanilmis-tik-nedir">Yoxlanımış tik nədir</a></li>
+                <li><a class="dropdown-links" href="works.html#qiymetlendirme-xidmeti">Qiymətləndirmə Xidməti</a></li>
+                <li><a class="dropdown-links" href="works.html#ehtimal-olunan-qiymet">Ehtimal Olunan qiymət</a></li>
+                <li><a class="dropdown-links" href="works.html#faq">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="nav-link-li">
+              <a href="./filter.html" class="desktop-item main-a">Axtarış</a>
+            </li>
+            <li class="nav-link-li"><a class="main-a" href="./all-announces2.html">Bütün Elanlar</a></li>
+            <li class="nav-link-li"><a class="main-a" href="#">Bugün Oynanılanlar</a></li>
+            <li class="nav-link-li"><a class="main-a" href="./calendar.html">Auksion Kalendari</a></li>
+            <li class="nav-link-li"><a class="main-a" href="#">Ağır Texnikalar</a></li>
+            <li class="nav-link-li"><a class="main-a" href="./add-announce.html">Elan Yerləşdir</a></li>
+          </ul>
+          <a href="login.html">
+            <img class="profile-img" src="./img/profile.png" alt="">
+          </a>
+        </div>
+      </nav>
+      <!-- DESKTOP NAV FINISH -->
+  </section>
+
+ <!-- MOBIL SEARCH SECTION START -->
+  <section class="mobile-search">
+      <label class="searh-label" for="">
+          <input placeholder="Search for brand, model..." class="search-input" type="search" name="" id="">
+          <img src="./img/search.png" alt="">
+      </label>
+  </section>
+<!-- MOBIL SEARCH SECTION FINISH -->
+
+  <section class="fav-section">
+    <div class="row trending-row w-100">
+        <div class="col-6 trending-header-col">
+          <div class="featured-header trending-header text-left">
+            <h3 style="font-weight: 700; display: flex; align-items: center; gap: 10px;"><img src="./img/star.webp" alt=""> Favorite</h3>
+          </div>
+        </div>
+        <!-- <div class="col-6 trending-more-col">
+          <div class="trending-more-button d-flex justify-content-end align-items-center">
+            <a href="#">View All</a>
+          </div>
+        </div> -->
+      </div>
+      <div class="row w-100">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+          <div class="featured-item card">
+            <div class="featured-card-img">
+              <img
+                class="featured-car card-img"
+                src="img/auto.webp"
+                alt="auto1"
+              />
+              <img class="featured-star" src="img/star.webp" alt="star1" />
+              <div class="featured-purchase">
+                  <img
+                      src="img/hammer.webp"
+                      alt="purchase1"
+                  />
+              </div>
+            </div>
+            <div class="featured-card-title">
+              <p>2018 Hyundai Sonata</p>
+            </div>
+            <div class="featured-card-bids">
+              <div class="featured-current-bid">
+                <div class="featured-current-img">
+                  <img src="img/greenhammer.webp" alt="greenhammer" />
+                </div>
+                <div class="featured-current-price">
+                  <span class="featured-current-bid-text">Current Bid</span>
+                  <span class="featured-currrent-bid-price">$876.00</span>
+                </div>
+              </div>
+              <div class="featured-buy-now-bid">
+                <div class="featured-buy-now-img">
+                  <img src="img/purchase.webp" alt="purchase" />
+                </div>
+                <div class="featured-buy-now-price">
+                  <span class="featured-buy-now-bid-text">Buy Now</span>
+                  <span class="featured-buy-now-bid-price">$5.00.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="featured-card-footer">
+              <div class="featured-card-time">
+                <span>0d : 16h : 27m : 30s</span>
+              </div>
+              <div class="featured-card-time-price">
+                <span>30 Bids</span>
+              </div>
+            </div>
+            <div>
+              <div class="featured-card-button">
+                <a href="add-inner.html">Submit A Bid</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+          <div class="featured-item card">
+            <div class="featured-card-img">
+              <img
+                class="featured-car card-img"
+                src="img/auto.webp"
+                alt="auto1"
+              />
+              <img class="featured-star" src="img/star.webp" alt="star1" />
+              <div class="featured-purchase">
+                  <img
+                      src="img/hammer.webp"
+                      alt="purchase1"
+                  />
+              </div>
+            </div>
+            <div class="featured-card-title">
+              <p>2018 Hyundai Sonata</p>
+            </div>
+            <div class="featured-card-bids">
+              <div class="featured-current-bid">
+                <div class="featured-current-img">
+                  <img src="img/greenhammer.webp" alt="greenhammer" />
+                </div>
+                <div class="featured-current-price">
+                  <span class="featured-current-bid-text">Current Bid</span>
+                  <span class="featured-currrent-bid-price">$876.00</span>
+                </div>
+              </div>
+              <div class="featured-buy-now-bid">
+                <div class="featured-buy-now-img">
+                  <img src="img/purchase.webp" alt="purchase" />
+                </div>
+                <div class="featured-buy-now-price">
+                  <span class="featured-buy-now-bid-text">Buy Now</span>
+                  <span class="featured-buy-now-bid-price">$5.00.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="featured-card-footer">
+              <div class="featured-card-time">
+                <span>0d : 16h : 27m : 30s</span>
+              </div>
+              <div class="featured-card-time-price">
+                <span>30 Bids</span>
+              </div>
+            </div>
+            <div>
+              <div class="featured-card-button">
+                <a href="add-inner.html">Submit A Bid</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+          <div class="featured-item card">
+            <div class="featured-card-img">
+              <img
+                class="featured-car card-img"
+                src="img/auto.webp"
+                alt="auto1"
+              />
+              <img class="featured-star" src="img/star.webp" alt="star1" />
+              <div class="featured-purchase">
+                  <img
+                      src="img/hammer.webp"
+                      alt="purchase1"
+                  />
+              </div>
+            </div>
+            <div class="featured-card-title">
+              <p>2018 Hyundai Sonata</p>
+            </div>
+            <div class="featured-card-bids">
+              <div class="featured-current-bid">
+                <div class="featured-current-img">
+                  <img src="img/greenhammer.webp" alt="greenhammer" />
+                </div>
+                <div class="featured-current-price">
+                  <span class="featured-current-bid-text">Current Bid</span>
+                  <span class="featured-currrent-bid-price">$876.00</span>
+                </div>
+              </div>
+              <div class="featured-buy-now-bid">
+                <div class="featured-buy-now-img">
+                  <img src="img/purchase.webp" alt="purchase" />
+                </div>
+                <div class="featured-buy-now-price">
+                  <span class="featured-buy-now-bid-text">Buy Now</span>
+                  <span class="featured-buy-now-bid-price">$5.00.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="featured-card-footer">
+              <div class="featured-card-time">
+                <span>0d : 16h : 27m : 30s</span>
+              </div>
+              <div class="featured-card-time-price">
+                <span>30 Bids</span>
+              </div>
+            </div>
+            <div>
+              <form action="" class="featured-card-button">
+                <a href="add-inner.html">Submit A Bid</a>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+            <div class="featured-item card">
+              <div class="featured-card-img">
+                <img
+                  class="featured-car card-img"
+                  src="img/auto.webp"
+                  alt="auto1"
+                />
+                <img class="featured-star" src="img/star.webp" alt="star1" />
+                <div class="featured-purchase">
+                    <img
+                        src="img/hammer.webp"
+                        alt="purchase1"
+                    />
+                </div>
+              </div>
+              <div class="featured-card-title">
+                <p>2018 Hyundai Sonata</p>
+              </div>
+              <div class="featured-card-bids">
+                <div class="featured-current-bid">
+                  <div class="featured-current-img">
+                    <img src="img/greenhammer.webp" alt="greenhammer" />
+                  </div>
+                  <div class="featured-current-price">
+                    <span class="featured-current-bid-text">Current Bid</span>
+                    <span class="featured-currrent-bid-price">$876.00</span>
+                  </div>
+                </div>
+                <div class="featured-buy-now-bid">
+                  <div class="featured-buy-now-img">
+                    <img src="img/purchase.webp" alt="purchase" />
+                  </div>
+                  <div class="featured-buy-now-price">
+                    <span class="featured-buy-now-bid-text">Buy Now</span>
+                    <span class="featured-buy-now-bid-price">$5.00.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-card-footer">
+                <div class="featured-card-time">
+                  <span>0d : 16h : 27m : 30s</span>
+                </div>
+                <div class="featured-card-time-price">
+                  <span>30 Bids</span>
+                </div>
+              </div>
+              <div>
+                <form action="" class="featured-card-button">
+                  <a href="add-inner.html">Submit A Bid</a>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+            <div class="featured-item card">
+              <div class="featured-card-img">
+                <img
+                  class="featured-car card-img"
+                  src="img/auto.webp"
+                  alt="auto1"
+                />
+                <img class="featured-star" src="img/star.webp" alt="star1" />
+                <div class="featured-purchase">
+                    <img
+                        src="img/hammer.webp"
+                        alt="purchase1"
+                    />
+                </div>
+              </div>
+              <div class="featured-card-title">
+                <p>2018 Hyundai Sonata</p>
+              </div>
+              <div class="featured-card-bids">
+                <div class="featured-current-bid">
+                  <div class="featured-current-img">
+                    <img src="img/greenhammer.webp" alt="greenhammer" />
+                  </div>
+                  <div class="featured-current-price">
+                    <span class="featured-current-bid-text">Current Bid</span>
+                    <span class="featured-currrent-bid-price">$876.00</span>
+                  </div>
+                </div>
+                <div class="featured-buy-now-bid">
+                  <div class="featured-buy-now-img">
+                    <img src="img/purchase.webp" alt="purchase" />
+                  </div>
+                  <div class="featured-buy-now-price">
+                    <span class="featured-buy-now-bid-text">Buy Now</span>
+                    <span class="featured-buy-now-bid-price">$5.00.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-card-footer">
+                <div class="featured-card-time">
+                  <span>0d : 16h : 27m : 30s</span>
+                </div>
+                <div class="featured-card-time-price">
+                  <span>30 Bids</span>
+                </div>
+              </div>
+              <div>
+                <form action="" class="featured-card-button">
+                  <a href="add-inner.html">Submit A Bid</a>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+            <div class="featured-item card">
+              <div class="featured-card-img">
+                <img
+                  class="featured-car card-img"
+                  src="img/auto.webp"
+                  alt="auto1"
+                />
+                <img class="featured-star" src="img/star.webp" alt="star1" />
+                <div class="featured-purchase">
+                    <img
+                        src="img/hammer.webp"
+                        alt="purchase1"
+                    />
+                </div>
+              </div>
+              <div class="featured-card-title">
+                <p>2018 Hyundai Sonata</p>
+              </div>
+              <div class="featured-card-bids">
+                <div class="featured-current-bid">
+                  <div class="featured-current-img">
+                    <img src="img/greenhammer.webp" alt="greenhammer" />
+                  </div>
+                  <div class="featured-current-price">
+                    <span class="featured-current-bid-text">Current Bid</span>
+                    <span class="featured-currrent-bid-price">$876.00</span>
+                  </div>
+                </div>
+                <div class="featured-buy-now-bid">
+                  <div class="featured-buy-now-img">
+                    <img src="img/purchase.webp" alt="purchase" />
+                  </div>
+                  <div class="featured-buy-now-price">
+                    <span class="featured-buy-now-bid-text">Buy Now</span>
+                    <span class="featured-buy-now-bid-price">$5.00.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-card-footer">
+                <div class="featured-card-time">
+                  <span>0d : 16h : 27m : 30s</span>
+                </div>
+                <div class="featured-card-time-price">
+                  <span>30 Bids</span>
+                </div>
+              </div>
+              <div>
+                <form action="" class="featured-card-button">
+                  <a href="add-inner.html">Submit A Bid</a>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+            <div class="featured-item card">
+              <div class="featured-card-img">
+                <img
+                  class="featured-car card-img"
+                  src="img/auto.webp"
+                  alt="auto1"
+                />
+                <img class="featured-star" src="img/star.webp" alt="star1" />
+                <div class="featured-purchase">
+                    <img
+                        src="img/hammer.webp"
+                        alt="purchase1"
+                    />
+                </div>
+              </div>
+              <div class="featured-card-title">
+                <p>2018 Hyundai Sonata</p>
+              </div>
+              <div class="featured-card-bids">
+                <div class="featured-current-bid">
+                  <div class="featured-current-img">
+                    <img src="img/greenhammer.webp" alt="greenhammer" />
+                  </div>
+                  <div class="featured-current-price">
+                    <span class="featured-current-bid-text">Current Bid</span>
+                    <span class="featured-currrent-bid-price">$876.00</span>
+                  </div>
+                </div>
+                <div class="featured-buy-now-bid">
+                  <div class="featured-buy-now-img">
+                    <img src="img/purchase.webp" alt="purchase" />
+                  </div>
+                  <div class="featured-buy-now-price">
+                    <span class="featured-buy-now-bid-text">Buy Now</span>
+                    <span class="featured-buy-now-bid-price">$5.00.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-card-footer">
+                <div class="featured-card-time">
+                  <span>0d : 16h : 27m : 30s</span>
+                </div>
+                <div class="featured-card-time-price">
+                  <span>30 Bids</span>
+                </div>
+              </div>
+              <div>
+                <form action="" class="featured-card-button">
+                  <a href="add-inner.html">Submit A Bid</a>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+            <div class="featured-item card">
+              <div class="featured-card-img">
+                <img
+                  class="featured-car card-img"
+                  src="img/auto.webp"
+                  alt="auto1"
+                />
+                <img class="featured-star" src="img/star.webp" alt="star1" />
+                <div class="featured-purchase">
+                    <img
+                        src="img/hammer.webp"
+                        alt="purchase1"
+                    />
+                </div>
+              </div>
+              <div class="featured-card-title">
+                <p>2018 Hyundai Sonata</p>
+              </div>
+              <div class="featured-card-bids">
+                <div class="featured-current-bid">
+                  <div class="featured-current-img">
+                    <img src="img/greenhammer.webp" alt="greenhammer" />
+                  </div>
+                  <div class="featured-current-price">
+                    <span class="featured-current-bid-text">Current Bid</span>
+                    <span class="featured-currrent-bid-price">$876.00</span>
+                  </div>
+                </div>
+                <div class="featured-buy-now-bid">
+                  <div class="featured-buy-now-img">
+                    <img src="img/purchase.webp" alt="purchase" />
+                  </div>
+                  <div class="featured-buy-now-price">
+                    <span class="featured-buy-now-bid-text">Buy Now</span>
+                    <span class="featured-buy-now-bid-price">$5.00.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-card-footer">
+                <div class="featured-card-time">
+                  <span>0d : 16h : 27m : 30s</span>
+                </div>
+                <div class="featured-card-time-price">
+                  <span>30 Bids</span>
+                </div>
+              </div>
+              <div>
+                <form action="" class="featured-card-button">
+                  <a href="add-inner.html">Submit A Bid</a>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+            <div class="featured-item card">
+              <div class="featured-card-img">
+                <img
+                  class="featured-car card-img"
+                  src="img/auto.webp"
+                  alt="auto1"
+                />
+                <img class="featured-star" src="img/star.webp" alt="star1" />
+                <div class="featured-purchase">
+                    <img
+                        src="img/hammer.webp"
+                        alt="purchase1"
+                    />
+                </div>
+              </div>
+              <div class="featured-card-title">
+                <p>2018 Hyundai Sonata</p>
+              </div>
+              <div class="featured-card-bids">
+                <div class="featured-current-bid">
+                  <div class="featured-current-img">
+                    <img src="img/greenhammer.webp" alt="greenhammer" />
+                  </div>
+                  <div class="featured-current-price">
+                    <span class="featured-current-bid-text">Current Bid</span>
+                    <span class="featured-currrent-bid-price">$876.00</span>
+                  </div>
+                </div>
+                <div class="featured-buy-now-bid">
+                  <div class="featured-buy-now-img">
+                    <img src="img/purchase.webp" alt="purchase" />
+                  </div>
+                  <div class="featured-buy-now-price">
+                    <span class="featured-buy-now-bid-text">Buy Now</span>
+                    <span class="featured-buy-now-bid-price">$5.00.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-card-footer">
+                <div class="featured-card-time">
+                  <span>0d : 16h : 27m : 30s</span>
+                </div>
+                <div class="featured-card-time-price">
+                  <span>30 Bids</span>
+                </div>
+              </div>
+              <div>
+                <form action="" class="featured-card-button">
+                  <a href="add-inner.html">Submit A Bid</a>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="my-pag" aria-label="Page divigation example">
+        <ul class="pagination">
+            <li class="page-item pag-icon-left-1">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true"><svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.41421 4.24264L7.07107 9.8995L5.65685 11.3137L0 5.65685L1.41421 4.24264Z" fill="#1E1E1E"/>
+                    <path d="M7.07107 1.41421L1.41421 7.07107L0 5.65685L5.65685 0L7.07107 1.41421Z" fill="#1E1E1E"/>
+                    <path d="M6.41421 4.24264L12.0711 9.8995L10.6569 11.3137L5 5.65685L6.41421 4.24264Z" fill="#1E1E1E"/>
+                    <path d="M12.0711 1.41421L6.41421 7.07107L5 5.65685L10.6569 0L12.0711 1.41421Z" fill="#1E1E1E"/>
+                    </svg>
+                    </span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+          <li class="page-item pag-icon-left-1">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true"><svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.41421 4.24264L7.07107 9.8995L5.65685 11.3137L0 5.65685L1.41421 4.24264Z" fill="#1E1E1E"/>
+                <path d="M7.07107 1.41421L1.41421 7.07107L0 5.65685L5.65685 0L7.07107 1.41421Z" fill="#1E1E1E"/>
+                </svg>
+                </span>
+            </a>
+          </li>
+          <li class="page-item pag-icon-left-1"><a class="page-link" href="#">1</a></li>
+          <li class="page-item pag-icon-left-1"><a class="page-link" href="#">2</a></li>
+          <li class="page-item pag-icon-left-1"><a class="page-link active" href="#">3</a></li>
+          <li class="page-item pag-icon-left-1"><a class="page-link" href="#">4</a></li>
+          <li class="page-item pag-icon-left-1"><a class="page-link" href="#">5</a></li>
+          <li class="page-item pag-icon-left-1">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true"><svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.58579 7.75736L0.928933 2.1005L2.34315 0.686291L8 6.34315L6.58579 7.75736Z" fill="#1E1E1E"/>
+                <path d="M0.928932 10.5858L6.58579 4.92893L8 6.34315L2.34315 12L0.928932 10.5858Z" fill="#1E1E1E"/>
+                </svg>
+                </span>
+            </a>
+          </li>
+          <li class="page-item pag-icon-left-1">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true"><svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.5858 7.75736L5.92893 2.1005L7.34315 0.686291L13 6.34315L11.5858 7.75736Z" fill="#1E1E1E"/>
+                <path d="M5.92893 10.5858L11.5858 4.92893L13 6.34315L7.34315 12L5.92893 10.5858Z" fill="#1E1E1E"/>
+                <path d="M6.58579 7.75736L0.928932 2.1005L2.34315 0.686291L8 6.34315L6.58579 7.75736Z" fill="#1E1E1E"/>
+                <path d="M0.928931 10.5858L6.58579 4.92893L8 6.34315L2.34315 12L0.928931 10.5858Z" fill="#1E1E1E"/>
+                </svg>
+                </span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+    </div>
+  </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer">
+        <img class="footer-top-img" style="width: 100%;" src="./img/top.png" alt="">
+        <div class="footer-container">
+        <div class="footer-top">
+          <div class="cat">
+            <h2>Categories</h2>
+            <a  href="#">Axtarış</a>
+            <a href="./all-announces2.html">Bütün Elanlar</a>
+            <a href="#">Bugün Oynanılanlar</a>
+            <a href="./calendar.html">Auksion Kalendari</a>
+            <a href="#">Ağır Texnikalar</a>
+            <a href="#">Elan Yerləşdir</a>
+          </div>
+          <div class="about">
+            <h2>About</h2>
+            <a href="#">Necə İşləyir</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Qiymətləndirmə Xidməti</a>
+          </div>
+          <div class="contact">
+            <div class="contact1">
+              <h2>Bizimlə Əlaqə</h2>
+              <div class="col1">
+                <img src="./img/tel.png" alt="">
+                <span>(646) 663-4575</span>
+              </div>
+              <div class="col2">
+                <img src="./img/tea.png" alt="">
+                <span>(646) 663-4575</span>
+              </div>
+              <div class="col3">
+                <img src="./img/mes.png" alt="">
+                <span>help@engotheme.com</span>
+              </div>
+              <div class="col4">
+                <img src="./img/tg.png" alt="">
+                <span>1201 Broadway Suite</span>
+              </div>
+            </div>
+            <div class="contact2">
+              <a href="#" class="fb">
+                <img src="./img/fb.png" alt="">
+              </a>
+              <a href="#" class="tw">
+                <img src="./img/tw.png" alt="">
+              </a>
+              <a href="#" class="in">
+                <img src="./img/in.png" alt="">
+              </a>
+              <a href="#" class="link">
+                <img src="./img/link.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <hr class="footer-hr" color="#D9D9D9">
+          <div class="footer-copy">
+            <img src="./img/logo.png" alt="">
+            <p>© Copyright 2023</p>
+          </div>
+        </div>
+        </div>
+    </div>
+    </footer>
+    
+    <!-- OWL CAROUSEL JS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery.js" type="text/javascript"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

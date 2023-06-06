@@ -1,0 +1,57 @@
+.fav-section{
+    max-width: 1000px;
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-pag{
+    margin-top: 30px;
+}
+
+.page-item{
+    background: #F8FAFB;
+    box-shadow: -1.04px 4.891px 20px rgba(69, 49, 183, 0.5);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.page-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1E1E1E;
+}
+
+.page-link.active{
+    background: linear-gradient(90deg, #DB0A13 0%, #F49B1D 100%);
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.page-link:focus {
+    z-index: 2;
+    outline: 0;
+    box-shadow: none!important;
+    color: #1e1e1e!important;
+    border: none!important;
+}
+
+.page-link:not(.active):hover {
+    color: #F49B1D!important;
+}
+
+.pagination{
+    gap: 8px;
+}

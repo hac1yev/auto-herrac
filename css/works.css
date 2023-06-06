@@ -1,0 +1,138 @@
+.works {
+    margin: 22px 0;
+}
+
+.works-container {
+    max-width: 1200px!important;
+    width: 100%;
+}
+
+.how-works-menu-header {
+    padding: 15px 10px;
+    width: 100%;
+    background: linear-gradient(92.56deg, #DC0B14 0%, #F4A12A 100%);
+}
+
+.how-works-menu-header span {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.how-works-menu-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    margin-top: 22px;
+}
+
+.how-works-menu-body a {
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #1D1717;
+    border: 1px solid #1D1717;
+    border-left: 10px solid #1D1717;
+    padding: 15px 10px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.how-works-menu-body a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.how-works-inner-header {
+    background: linear-gradient(90.26deg, #DC0B14 0%, #F4A12A 100%);
+    padding: 15px 10px;
+}
+
+.how-works-inner-header span {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.how-works-inner-information {
+    padding: 20px;
+}
+
+.how-works-inner-description {
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #1D1717;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-pills .nav-link.active .works-active-dot {
+    width: 10px;
+    height: 10px;
+    background: #1D1717;    
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1100px) {
+    .how-works-menu-body a {
+        font-size: 16px;
+        padding: 12px 8px;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .how-works-menu-body a {
+        font-size: 12px;
+        padding: 10px 7px;
+    }
+}
+
+@media screen and (max-width: 767.5px) {
+    .how-works-menu-body a {
+        font-size: 20px;
+        padding: 15px 10px;
+    }
+
+    .how-works-inner-information {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .how-works-menu-body a {
+        font-size: 18px;
+        padding: 13px 9px;
+    }
+}

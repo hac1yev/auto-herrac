@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AUCTION</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL CSS -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <section class="header">
+      <header>
+          <div class="header-container">
+              <div class="logo-sec">
+                 <a href="./index.html"> <img src="./img/logo.png" alt=""></a>
+              </div>
+              <div class="second-sec">
+                  <div class="num-search">
+                      <label class="searh-label" for="">
+                          <input placeholder="Search for brand, model...." class="search-input" type="search" name="" id="">
+                          <img src="./img/search.png" alt="">
+                      </label>
+                      <p class="number-p">+ 994 (077) 777-7070</p>
+                  </div>
+                  <div class="lang-divs">
+                    <div class="select">
+                      <span class="selected">AZ</span>
+                      <div class="caret"></div>
+                    </div>
+                    <ul class="menu">
+                      <li>AZ</li>
+                      <li>EN</li>
+                      <li class="active">RU</li>
+                    </ul>
+              </div>
+                  <a href="login.html">
+                    <img class="profile-img-header" src="./img/profile.png" alt="">
+                  </a>
+                  <button class="mob-menu-open">
+                    <img class="open-icon" src="./img/menu-icon.png" alt="">
+                  </button>
+                  <button class="mob-menu-close">
+                    <img class="close-icon" src="./img/close.png" alt="">
+                  </button>
+              </div>
+          </div>
+
+        
+      </header>
+      <nav>
+        <div class="wrapper mobile-menu-div">
+          <ul class="nav-links">
+            <li class="nav-link-li" id="how_works_li">
+              <a  href="#" class="desktop-item main-a">Necə İşləyir<img class="desktop-arrow" src="./img/downArrow.png" alt="downArrow" /></a>
+              <ul class="drop-menu">
+                <li><a class="dropdown-links" href="works.html#elan-yerlesdirilmesi">Elan Yerləşdirilməsi</a></li>
+                <li><a class="dropdown-links" href="works.html#auksiyon-nece-isleyir">Auksiyon necə işləyir</a></li>
+                <li><a class="dropdown-links" href="works.html#yoxlanilmis-tik-nedir">Yoxlanımış tik nədir</a></li>
+                <li><a class="dropdown-links" href="works.html#qiymetlendirme-xidmeti">Qiymətləndirmə Xidməti</a></li>
+                <li><a class="dropdown-links" href="works.html#ehtimal-olunan-qiymet">Ehtimal Olunan qiymət</a></li>
+                <li><a class="dropdown-links" href="works.html#faq">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="nav-link-li">
+              <a href="./filter.html" class="desktop-item main-a">Axtarış</a>
+            </li>
+            <li class="nav-link-li"><a class="main-a" href="./all-announces2.html">Bütün Elanlar</a></li>
+            <li class="nav-link-li"><a class="main-a" href="#">Bugün Oynanılanlar</a></li>
+            <li class="nav-link-li"><a class="main-a" href="./calendar.html">Auksion Kalendari</a></li>
+            <li class="nav-link-li"><a class="main-a" href="#">Ağır Texnikalar</a></li>
+            <li class="nav-link-li"><a class="main-a" href="./add-announce.html">Elan Yerləşdir</a></li>
+          </ul>
+          <a href="login.html">
+            <img class="profile-img" src="./img/profile.png" alt="">
+          </a>
+        </div>
+      </nav>
+       <!-- MOBIL SEARCH SECTION START -->
+  <section class="mobile-search">
+    <label class="searh-label" for="">
+        <input placeholder="Search for brand, model..." class="search-input" type="search" name="" id="">
+        <img src="./img/search.png" alt="">
+    </label>
+</section>
+<!-- MOBIL SEARCH SECTION FINISH -->
+      <!-- DESKTOP NAV START -->
+                <div class="mega-box-2 filter-container">
+                  <div class="content filter-content">
+                    <div class="mega-header">
+                      <h1 class="basic-data">Basic Data</h1>
+                      <div class="checks">
+                        <label for="Hamsı">
+                          <input type="radio" name="data" id="Hamsı">
+                          Hamsı
+                        </label>
+                        <label for="Zədəsiz NV">
+                          <input type="radio" name="data" id="Zədəsiz NV">Zədəsiz NV
+                        </label>
+                        <label for="Zədəli NV">
+                          <input type="radio" name="data" id="Zədəli NV">Zədəli NV
+                        </label>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="mega-sec2">
+                      <label for="">Make <br>
+                        <select name="" id="">
+                          <option value="">Mercedes</option>
+                          <option value="">BMW</option>
+                        </select>
+                      </label>
+                      <label for="">Model <br>
+                        <select name="" id="">
+                          <optgroup label="Mercedes">
+                            <option value="gt63">GT63s</option>
+                            <option value="w222">W222</option>
+                          </optgroup>
+                          <optgroup label="BMW">
+                            <option value="m5">M5</option>
+                            <option value="x7">X7</option>
+                          </optgroup>
+                        </select>
+                      </label>
+                      <label for="">
+                        Variant <br>
+                        <input type="text">
+                      </label>
+                      <label for="">
+                        Istehsal Bazari <br>
+                        <input type="text">
+                      </label>
+                    </div>
+                    <div class="mega-sec2_1">
+                      <details>
+                        <summary>Add other vehicles</summary>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vero ad dolore quis reiciendis sapiente!</p>
+                       </details>
+                       <details>
+                        <summary>Exclude vehicle</summary>
+                        <div class="detail-div">
+                          <label class="detail-label" for="m1">
+                            <input type="checkbox" name="" id="m1"><img src="./img/m1.png" alt="">
+                          </label>
+                          <label class="detail-label" for="m2">
+                            <input type="checkbox" name="" id="m2"><img src="./img/m2.png" alt="">
+                          </label>
+                          <label class="detail-label" for="m3">
+                            <input type="checkbox" name="" id="m3"><img src="./img/m3.png" alt="">
+                          </label>
+                          <label class="detail-label" for="m4">
+                            <input type="checkbox" name="" id="m4"><img src="./img/m4.png" alt="">
+                          </label>
+                          <label class="detail-label" for="m5">
+                            <input type="checkbox" name="" id="m5"><img src="./img/m5.png" alt="">
+                          </label>
+                          <label class="detail-label" for="m6">
+                            <input type="checkbox" name="" id="m6"><img src="./img/m6.png" alt="">
+                          </label>
+                          <label class="detail-label" for="m7">
+                            <input type="checkbox" name="" id="m7"><img src="./img/m7.png" alt="">
+                          </label>
+                          <label class="detail-label" for="m8">
+                            <input type="checkbox" name="" id="m8"><img src="./img/m8.png" alt="">
+                          </label>
+                          <label class="detail-label" for="m9">
+                            <input type="checkbox" name="" id="m9"><img src="./img/m9.png" alt="">
+                          </label>
+                          <label class="detail-label" for="m10">
+                            <input type="checkbox" name="" id="m10"><img src="./img/m10.png" alt="">
+                          </label>
+                          <label class="detail-label" for="m11">
+                            <input type="checkbox" name="" id="m11"><img src="./img/m11.png" alt="">
+                          </label>
+                          <label class="detail-label" for="m12">
+                            <input type="checkbox" name="" id="m12"><img src="./img/m12.png" alt="">
+                          </label>
+                          <label class="detail-label" for="m13">
+                            <input type="checkbox" name="" id="m13"><img src="./img/m13.png" alt="">
+                          </label>
+                          <label class="detail-label" for="m14">
+                            <input type="checkbox" name="" id="m14"><img src="./img/m14.png" alt="">
+                          </label>
+                        </div>
+                       </details>
+                       <br><br>
+                      <div class="price">
+                        <label for="">
+                          Price: <br>
+                          <input placeholder="from" type="number" name="" id=""> &nbsp;
+                          <input placeholder="to" type="number" name="" id="">
+                         </label>
+                      </div>
+                       
+                       <hr>
+                    </div>
+                    <div class="mega-sec3">
+                      <label for="">
+                        First registration (date): <br>
+                        <input type="number" name="" placeholder="from" id=""> &nbsp;
+                        <input type="number" name="" placeholder="to" id="">
+                      </label> <br>
+                      <label for="">
+                        Kilomentre: <br>
+                        <input type="number" name="" placeholder="from" id=""> &nbsp;
+                        <input type="number" name="" placeholder="to" id="">
+                      </label>
+                      <h3 class="tech-data">Technical Data</h3>
+                      <hr>
+                      <h4>Fuel Type</h4>
+                      <div class="fuel-div">
+                        <label class="fuel-label" for="Diesel">
+                          <input type="checkbox" name="" id="Diesel"> Diesel
+                        </label>
+                        <label class="fuel-label" for="Petrol">
+                          <input type="checkbox" name="" id="Petrol"> Petrol
+                        </label>
+                        <label class="fuel-label" for="Hybrid(petrol)">
+                          <input type="checkbox" name="" id="Hybrid(petrol)"> Hybrid(petrol)
+                        </label>
+                        <label class="fuel-label" for="Hybrid(disel)">
+                          <input type="checkbox" name="" id="Hybrid(disel)"> Hybrid(disel)
+                        </label>
+                        <label class="fuel-label" for="Electric">
+                          <input type="checkbox" name="" id="Electric"> Electric
+                        </label>
+                        <label class="fuel-label" for="LPG">
+                          <input type="checkbox" name="" id="LPG"> LPG
+                        </label>
+                        <label class="fuel-label" for="Natural Gas">
+                          <input type="checkbox" name="" id="Natural Gas"> Natural Gas
+                        </label>
+                        <label class="fuel-label" for="Hydrogen">
+                          <input type="checkbox" name="" id="Hydrogen"> Hydrogen
+                        </label>
+                        <label class="fuel-label" for="Ethanol">
+                          <input type="checkbox" name="" id="Ethanol"> Ethanol
+                        </label>
+                        <label class="fuel-label" for="Other">
+                          <input type="checkbox" name="" id="Other"> Other
+                        </label>
+                        <label class="fuel-label" for="Plug-in hybrid">
+                          <input type="checkbox" name="" id="Plug-in hybrid"> Plug-in hybrid
+                        </label>
+                      </div>
+
+                      <div class="capacity">
+                        <label for="">
+                          Cubic Capacity: <br>
+                          <input type="text" placeholder="from"> &nbsp;
+                          <input type="text" placeholder="to">
+                        </label>
+                      </div>
+
+                      <div class="transmission">
+                        <p>Transmission</p>
+                        <label for="Automatic">
+                          <input type="checkbox" name="" id="Automatic">
+                          Automatic transition
+                        </label> &nbsp;&nbsp;
+                        <label for="Semi-automatic">
+                          <input type="checkbox" name="" id="Semi-automatic">
+                          Semi-automatic
+                        </label>&nbsp;&nbsp;
+                        <label for="Manual">
+                          <input type="checkbox" name="" id="Manual">
+                          Manual gearbox
+                        </label>
+                      </div>
+
+                      <h3 class="tech-data">Technical Data</h3>
+                      <hr>
+                      <p class="ex-color">Exterior color</p>
+                      <div class="color-div">
+                        <label class="checkbox">
+                          <input type="checkbox" class="color1" />
+                          <span>Lorem ipsum</span>
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" class="color2" />
+                          <span>Lorem ipsum</span>
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" class="color3"/>
+                          <span>Lorem ipsum</span>
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" class="color4"/>
+                          <span>Lorem ipsum</span>
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" class="color5"/>
+                          <span>Lorem ipsum</span>
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" class="color6"/>
+                          <span>Lorem ipsum</span>
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" class="color7"/>
+                          <span>Lorem ipsum</span>
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" class="color8"/>
+                          <span>Lorem ipsum</span>
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" class="color9"/>
+                          <span>Lorem ipsum</span>
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" class="color10"/>
+                          <span>Lorem ipsum</span>
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" class="color11"/>
+                          <span>Lorem ipsum</span>
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" class="color12"/>
+                          <span>Lorem ipsum</span>
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" class="color13"/>
+                          <span>Lorem ipsum</span>
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" class="color14"/>
+                          <span>Lorem ipsum</span>
+                        </label>
+                      </div>
+                    </div>
+                    <p class="ex-color">Fuel Type</p>
+                    <div class="fuel-type">
+                      <label for="rear">
+                        <input type="checkbox" name="" id="rear">
+                        Rear
+                      </label>
+                      <label for="front">
+                        <input type="checkbox" name="" id="front">
+                        Front
+                      </label>
+                      <label for="camera">
+                        <input type="checkbox" name="" id="camera">
+                        Camera
+                      </label>
+                      <label for="360">
+                        <input type="checkbox" name="" id="360">
+                        360 Camera
+                      </label>
+                      <label for="self">
+                        <input type="checkbox" name="" id="self">
+                        Self-streering system
+                      </label>
+                    </div>
+
+                    <p class="ex-color">Others</p>
+                    <div class="others-div">
+                      <label for="1">
+                        <input type="checkbox" name="" id="1">
+                        Lorem İpsum
+                      </label>
+                      <label for="2">
+                        <input type="checkbox" name="" id="2">
+                        Lorem İpsum
+                      </label>
+                      <label for="3">
+                        <input type="checkbox" name="" id="3">
+                        Lorem İpsum
+                      </label>
+                      <label for="4">
+                        <input type="checkbox" name="" id="4">
+                        Lorem İpsum
+                      </label>
+                      <label for="5">
+                        <input type="checkbox" name="" id="5">
+                        Lorem İpsum
+                      </label>
+                      <label for="6">
+                        <input type="checkbox" name="" id="6">
+                        Lorem İpsum
+                      </label>
+                      <label for="7">
+                        <input type="checkbox" name="" id="7">
+                        Lorem İpsum
+                      </label>
+                      <label for="8">
+                        <input type="checkbox" name="" id="8">
+                        Lorem İpsum
+                      </label>
+                      <label for="9">
+                        <input type="checkbox" name="" id="9">
+                        Lorem İpsum
+                      </label>
+                      <label for="10">
+                        <input type="checkbox" name="" id="10">
+                        Lorem İpsum
+                      </label>
+                      <label for="11">
+                        <input type="checkbox" name="" id="11">
+                        Lorem İpsum
+                      </label>
+                      <label for="12">
+                        <input type="checkbox" name="" id="12">
+                        Lorem İpsum
+                      </label>
+                     
+                    </div>
+                    <button style="margin: 0 auto;" class="filter-search filter-page">Axtar</button>
+                  </div>
+                  
+                </div>
+      <!-- DESKTOP NAV FINISH -->
+  </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer">
+        <img class="footer-top-img" style="width: 100%;" src="./img/top.png" alt="">
+        <div class="footer-container">
+        <div class="footer-top">
+          <div class="cat">
+            <h2>Categories</h2>
+            <a  href="#">Axtarış</a>
+            <a href="./all-announces2.html">Bütün Elanlar</a>
+            <a href="#">Bugün Oynanılanlar</a>
+            <a href="./calendar.html">Auksion Kalendari</a>
+            <a href="#">Ağır Texnikalar</a>
+            <a href="./add-announce.html">Elan Yerləşdir</a>
+          </div>
+          <div class="about">
+            <h2>About</h2>
+            <a href="#">Necə İşləyir</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Qiymətləndirmə Xidməti</a>
+          </div>
+          <div class="contact">
+            <div class="contact1">
+              <h2>Bizimlə Əlaqə</h2>
+              <div class="col1">
+                <img src="./img/tel.png" alt="">
+                <span>(646) 663-4575</span>
+              </div>
+              <div class="col2">
+                <img src="./img/tea.png" alt="">
+                <span>(646) 663-4575</span>
+              </div>
+              <div class="col3">
+                <img src="./img/mes.png" alt="">
+                <span>help@engotheme.com</span>
+              </div>
+              <div class="col4">
+                <img src="./img/tg.png" alt="">
+                <span>1201 Broadway Suite</span>
+              </div>
+            </div>
+            <div class="contact2">
+              <a href="#" class="fb">
+                <img src="./img/fb.png" alt="">
+              </a>
+              <a href="#" class="tw">
+                <img src="./img/tw.png" alt="">
+              </a>
+              <a href="#" class="in">
+                <img src="./img/in.png" alt="">
+              </a>
+              <a href="#" class="link">
+                <img src="./img/link.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <hr class="footer-hr" color="#D9D9D9">
+          <div class="footer-copy">
+            <img src="./img/logo.png" alt="">
+            <p>© Copyright 2023</p>
+          </div>
+        </div>
+        </div>
+    </div>
+    </footer>
+    
+    <!-- OWL CAROUSEL JS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery.js" type="text/javascript"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1136 @@
+/* Mobile Items CSS */
+
+.all-announce2-left-mobile {
+    width: 100%;
+    padding: 10px;
+    display: none;
+}
+
+.all-announce-mobile-col {
+    display: none;
+}
+
+.announce-filter-mobile {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    white-space: nowrap;
+    gap: 10px;
+}
+
+.announce-filter-mobile div {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #1D1717;
+    padding: 0px 8px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.announce-filter-mobile img {
+    margin-left: 5px;
+    width: 8.5px;
+    height: 8.5px;
+}
+
+.mobile-search-filter {
+    z-index: 1000;
+    background-color: #fff;
+}
+
+.filter-close-img {
+    display: none;
+}
+
+.filter-close-img img {
+    width: 20px;
+    height: 20px;
+}
+
+.mobile-filter-search-button button {
+    background: linear-gradient(90deg, #DB0A13 0%, #F49B1D 100%);
+    box-shadow: -1.04px 4.891px 20px rgba(69, 49, 183, 0.5);
+    border-radius: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 6px 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+/* Mobile Items CSS */
+
+.all-announces2 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.all-announces2-left {
+    width: 400px;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+
+.all-announces2-container {
+    max-width: 1000px!important;
+    width: 100%;
+    padding: 0!important;
+}
+
+.all-announces2-right {
+    width: 400px;
+}
+
+.owl-nav,
+.owl-dots {
+    display: none;
+}
+
+.all-announces2-header-row {
+    height: 40px;
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+
+.all-announces2-card {
+    height: 108px;
+    background-color: transparent;
+}
+
+.all-announces2-card img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.all-announces2-card-row {
+    padding: 6px;
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.32);
+    border-radius: 5px 0px 0px 5px;
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+
+.all-announces2-card-col {
+    padding: 0;
+}
+
+.all-announces2-card-col1 {
+    padding: 0;
+    padding-right: 10px;
+}
+
+.all-announces2-header-col,
+.all-announces2-header-col1,
+.all-announces2-header-col6 {
+    padding: 0 0.5px!important;
+    height: 100%;
+}
+
+.announces-headers1 {
+    border-radius: 6px 0px 0px 6px;
+}
+
+.announces-headers6 {
+    border-radius: 0px 6px 6px 0px;
+}
+
+.announces-headers,
+.announces-headers1,
+.announces-headers6 {
+    width: 100%;
+    background: #1D1717!important;
+    height: 100%;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    padding: 9px 10px;
+}
+
+.announce-lot-info {
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.announce-lot-info h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #E8551F;
+}
+
+.announce-lot-info div {
+    display: flex;
+    align-items: center;
+}
+
+.announce-lot-info div span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #363A3F;
+}
+
+.announce-lot-info div p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #E8551F;
+    margin: 0!important;
+}
+
+.announce-lot-info a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 16px;
+    gap: 16px;
+    width: 65px;
+    height: 24px;
+    background: #FFFFFF;
+    border: 1px solid #E8551F;
+    border-radius: 20px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #E8551F;
+    margin-top: 19px;
+}
+
+.announce-vehicle-info {
+    height: 100%;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.announce-vehicle-info p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #151317;
+    margin-bottom: 3px;
+}
+
+.announce-vehicle-info span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #151317;
+}
+
+.announce-vehicle-info div {
+    margin-bottom: 13px;
+    margin-top: 5px;
+}
+
+.announces-condition {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5px;
+}
+
+.announces-condition span{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #151317;
+    margin-top: 8px;
+}
+
+.announces-sail-info {
+    height: 100%;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.announces-sail-info h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #E8551F;
+}
+
+.announces-sail-info p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #1D1717;
+}
+
+.announces-sail-info span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #1D1717;
+}
+
+.announces-sail-info h4 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #D91616;
+    margin-bottom: 0;
+}
+
+.announces-bids {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5px;
+}
+
+.announces-bids p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 11px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #151317;
+    margin-bottom: 3px ;
+}
+
+.announces-bids h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #151317;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.announces-bids span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #151317;
+}
+
+.announce-card-bid-now {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 5px 32.1406px 6px 33.8594px;
+    width: 120px;
+    height: 28px;
+    background: #F39B29;
+    border-radius: 28px;
+}
+
+.announce-card-bid-now:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.announce-card-buy-now {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 5px 36.7344px 6px 38.2656px;
+    width: 120px;
+    height: 28px;
+    background: #9B6400;
+    border-radius: 28px;
+    margin-top: 5px;
+}
+
+.announce-card-buy-now:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+/* CHECK INPUT SECTION */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 10px;
+    margin: 0;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-10%,-50%);
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translate(90%, -50%);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+
+/* Announces Filter Section */
+
+.announces-filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.announces-filter-header h3 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #E8551F;
+    margin-bottom: 0;
+}
+
+.announces-filter-header a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #E8551F;
+    margin-bottom: 0;
+}
+
+.filter-VIP {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.filter-VIP h2{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 0;
+}
+
+.filter-VIP p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #151317;
+    margin: 0;
+}
+
+.filter-newly h5{
+    width: 30%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #151317;
+    margin: 0;
+}
+
+.filter-newly {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+
+.filter-newly span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #495057;
+}
+
+.filter-exclude {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+.filter-exclude h5 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #151317;
+    margin: 0;
+}
+
+
+.accordion-button:after {
+    display: none;
+}
+
+.accordion {
+    --mdb-accordion-border-width: none!important;
+}
+
+.accordion-button {
+    background: rgba(240, 240, 240, 0.7)!important;
+    padding: 0!important;
+    height: 100%!important;
+    width: 100%!important;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700!important;
+    font-size: 13px!important;
+    line-height: 16px!important;
+    color: #1E1F21!important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion-header {
+    background: rgba(240, 240, 240, 0.7)!important;
+    height: 50px!important;
+    padding: 0 15px!important;
+
+    display: flex;
+    align-items: center;
+}
+
+.accordion-header a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #E8551F;
+}
+
+.accordion-body {
+    padding: 10px!important;
+    border-left: none!important;
+    border-right: none!important;
+}
+
+.accordion-search-input {
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    border-radius: 3px;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.accordion-checkbox {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    gap: 10px;
+}
+
+.accordion-checkbox input {
+    width: 16px!important;
+    height: 16px!important;
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    border-radius: 3px;
+}
+
+.accordion-checkbox label {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #495057;
+    margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 1471px) {
+
+    .announce-lot-info h3 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .announce-lot-info a {
+        margin-top: 10px;
+    }
+
+    .announce-lot-info div p,
+    .announce-lot-info p span {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .announce-vehicle-info div {
+        margin-bottom: 6px;
+        margin-top: 2px;
+    }
+
+    .announce-vehicle-info span {
+        font-size: 12px;
+        line-height: 13px;
+        display: flex;
+        align-items: center;
+        color: #151317;
+    }
+
+    .announces-condition span {
+        font-size: 10px;
+        line-height: 13px;
+        margin-top: 4px;
+    }
+
+    .announces-sail-info h3 {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .announces-sail-info p {
+        margin-bottom: 5px;
+    }
+
+    .announces-sail-info p,
+    .announces-sail-info span {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .announces-bids p {
+        font-size: 9px;
+        line-height: 13px;
+        margin-bottom: 2px;
+    }
+
+    .announces-bids h3 {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 3px;
+    }
+
+    .announce-card-bid-now,
+    .announce-card-buy-now {
+        font-size: 10px;
+        line-height: 13px;
+        padding: 3px 23.1406px 3px 23.8594px;
+        width: 100px;
+        height: 22px;
+        display: flex;
+    }
+
+    .announces-headers,
+    .announces-headers1,
+    .announces-headers6 {
+        font-size: 12px;
+        line-height: 21px;
+    }
+}
+
+@media screen and (max-width: 1288px) {
+    .all-announces2-right {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .all-announces2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .all-announces2-card {
+        height: 100px;
+    }
+
+
+    .announce-lot-info h3 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .announce-lot-info a {
+        margin-top: 6px;
+    }
+
+    .announce-lot-info div p,
+    .announce-lot-info p span {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .announce-vehicle-info div {
+        margin-bottom: 6px;
+        margin-top: 2px;
+    }
+
+    .announce-vehicle-info span {
+        font-size: 12px;
+        line-height: 13px;
+        display: flex;
+        align-items: center;
+        color: #151317;
+    }
+
+    .announces-condition span {
+        font-size: 10px;
+        line-height: 13px;
+        margin-top: 4px;
+    }
+
+    .announces-sail-info h3 {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .announces-sail-info p {
+        margin-bottom: 5px;
+    }
+
+    .announces-sail-info p,
+    .announces-sail-info span {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .announces-bids p {
+        font-size: 9px;
+        line-height: 13px;
+        margin-bottom: 2px;
+    }
+
+    .announces-bids h3 {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 3px;
+    }
+
+    .announce-card-bid-now,
+    .announce-card-buy-now {
+        font-size: 10px;
+        line-height: 13px;
+        padding: 3px 23.1406px 3px 23.8594px;
+        width: 100px;
+        height: 22px;
+        display: flex;
+    }
+
+    .announces-headers,
+    .announces-headers1,
+    .announces-headers6 {
+        font-size: 12px;
+        line-height: 21px;
+    }
+}
+
+@media screen and (max-width: 767.5px) {
+    .mobile-filter-search-button {
+        display: flex!important;
+    }
+
+    .all-announces2 {
+        margin-top: 20px;
+    }
+
+    .all-announces2-container {
+        padding: 0 10px!important;
+    }
+
+    .all-announce2-left-mobile {
+        display: block;
+    }
+    
+    .all-announce-mobile-col {
+        display: block;
+        width: 100%;
+        padding: 20px
+    }
+
+    .all-announce-mobile-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .all-announce-mobile-model {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .all-announce-mobile-price {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .all-announce-mobile-model h3 {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        color: #E8551F;
+        margin-bottom: 0;
+    }
+
+    .all-announce-mobile-model p {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+        color: #363A3F;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+
+    .all-announce-mobile-model p span {
+        color: rgba(232, 85, 31, 1);
+    } 
+
+    .all-announce-mobile-price p {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        color: #151317;
+        margin-bottom: 0;
+    }
+
+    .all-announce-mobile-price h3 {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        color: #151317;
+        margin-top: 5px;
+        margin-bottom: 0;
+    } 
+
+    .all-announce-mobile-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .all-announce-mobile-buttons a {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .mobile-buy-now {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 38px;
+        left: 41px;
+        top: 253.73px;
+        background: #9B6400;
+        border-radius: 28px;
+    }
+
+    .mobile-bid-now {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 38px;
+        left: 41px;
+        top: 253.73px;
+        background: #F39B29;
+        border-radius: 28px;
+    }
+
+    .all-announces2-card {
+        height: 320px;
+    }
+
+    .all-announces2-card img {
+        object-fit: cover;
+    }
+
+    .all-announce-mobile-price h3 span {
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+
+    .all-announces2-left {
+        display: none;
+    }
+
+    .all-announces2-header-row {
+        display: none;
+    }
+
+    .all-announces2-left {
+        width: 100%;
+    }
+
+    .all-announces2-right {
+        width: 100%;
+    }   
+    
+    .all-announces2-card-col {
+        display: none;
+    }
+
+    .filter-close-img {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .all-announces2-card {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .all-announces2-card {
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .all-announces2-card {
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .all-announce-mobile-model h3 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .all-announce-mobile-model p {
+        font-size: 11px;
+        line-height: 10px;
+    }
+
+    .all-announce-mobile-price p {
+        font-size: 13px;
+        line-height: 11px;
+    }
+
+    .all-announce-mobile-price h3 {
+        font-size: 14px;
+        line-height: 14px;
+    } 
+
+    .all-announce-mobile-price h3 span{
+        font-size: 10px;
+        margin-top: 2px;
+    } 
+
+    .all-announce-mobile-buttons a {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .mobile-buy-now {
+        width: 110px;
+        height: 28px;
+    }
+
+    .mobile-bid-now {
+        width: 110px;
+        height: 28px;
+    }
+
+    .all-announces2-card {
+        height: 200px;
+    }
+}
+

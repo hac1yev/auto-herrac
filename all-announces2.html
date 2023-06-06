@@ -1,0 +1,1679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AUCTION</title>  
+     <!-- Bootstrap MDB -->
+     <link rel="stylesheet" href="./css/mdb.min.css" />
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/all-announces2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL CSS -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <section class="header">
+      <header>
+          <div class="header-container">
+              <div class="logo-sec">
+                 <a href="./index.html"> <img src="./img/logo.png" alt=""></a>
+              </div>
+              <div class="second-sec">
+                  <div class="num-search">
+                      <label class="searh-label" for="">
+                          <input placeholder="Search for brand, model...." class="search-input" type="search" name="" id="">
+                          <img src="./img/search.png" alt="">
+                      </label>
+                      <p class="number-p">+ 994 (077) 777-7070</p>
+                  </div>
+                  <div class="lang-divs">
+                        <div class="select">
+                          <span class="selected">AZ</span>
+                          <div class="caret"></div>
+                        </div>
+                        <ul class="menu">
+                          <li>AZ</li>
+                          <li>EN</li>
+                          <li class="active">RU</li>
+                        </ul>
+                  </div>
+              <a href="login.html">
+                    <img class="profile-img-header" src="./img/profile.png" alt="">
+              </a>
+              <button class="mob-menu-open">
+                    <img class="open-icon" src="./img/menu-icon.png" alt="">
+              </button>
+              <button class="mob-menu-close">
+                    <img class="close-icon" src="./img/close.png" alt="">
+              </button>
+            </div>
+              </div>
+          </div>
+      </header>
+      <!-- DESKTOP NAV START -->
+      <nav>
+        <div class="wrapper mobile-menu-div">
+          <ul class="nav-links">
+            <li class="nav-link-li" id="how_works_li">
+              <a  href="#" class="desktop-item main-a">Necə İşləyir<img class="desktop-arrow" src="./img/downArrow.png" alt="downArrow" /></a>
+              <ul class="drop-menu">
+                <li><a class="dropdown-links" href="works.html#elan-yerlesdirilmesi">Elan Yerləşdirilməsi</a></li>
+                <li><a class="dropdown-links" href="works.html#auksiyon-nece-isleyir">Auksiyon necə işləyir</a></li>
+                <li><a class="dropdown-links" href="works.html#yoxlanilmis-tik-nedir">Yoxlanımış tik nədir</a></li>
+                <li><a class="dropdown-links" href="works.html#qiymetlendirme-xidmeti">Qiymətləndirmə Xidməti</a></li>
+                <li><a class="dropdown-links" href="works.html#ehtimal-olunan-qiymet">Ehtimal Olunan qiymət</a></li>
+                <li><a class="dropdown-links" href="works.html#faq">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="nav-link-li">
+              <a href="./filter.html" class="desktop-item main-a">Axtarış</a>
+            </li>
+            <li class="nav-link-li"><a class="main-a" href="./all-announces2.html">Bütün Elanlar</a></li>
+            <li class="nav-link-li"><a class="main-a" href="#">Bugün Oynanılanlar</a></li>
+            <li class="nav-link-li"><a class="main-a" href="./calendar.html">Auksion Kalendari</a></li>
+            <li class="nav-link-li"><a class="main-a" href="#">Ağır Texnikalar</a></li>
+            <li class="nav-link-li"><a class="main-a" href="./add-announce.html">Elan Yerləşdir</a></li>
+          </ul>
+          <a href="login.html">
+            <img class="profile-img" src="./img/profile.png" alt="">
+          </a>
+        </div>
+      </nav>
+      <!-- DESKTOP NAV FINISH -->
+  </section>
+
+    <!-- MOBIL SEARCH SECTION START -->
+    <section class="mobile-search">
+      <label class="searh-label" for="">
+        <input
+          placeholder="Search for brand, model..."
+          class="search-input"
+          type="search"
+          name=""
+          id=""
+        />
+        <img src="./img/search.png" alt="" />
+      </label>
+    </section>
+    <!-- MOBIL SEARCH SECTION FINISH -->
+
+    <!-- ALL ANNOUNCES2 SECTION -->
+    <section class="all-announces2">
+      <form class="all-announces2-left" id="search_filter">
+        <div class="filter-close-img">
+          <img id="filter_close" src="./img/filter-close.png" alt="filter-close" />
+        </div>
+        <div class="announces-filter-header">
+          <h3>Search Filters</h3>
+          <a href="#">Reset All</a>
+        </div>
+        <div class="filter-VIP">
+          <h2>VIP</h2>
+          <p>Vehicles Only</p>
+          <label class="switch">
+            <input id="checkbox1" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="filter-newly">
+          <h5>Newly Added Vehicles</h5>
+          <span>Last 24 Hours</span>
+          <label class="switch">
+            <input id="checkbox2" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="filter-exclude">
+          <h5>Exclude Upcoming Auction Vehicles</h5>
+          <label class="switch">
+            <input id="checkbox3" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        
+
+        <div class="accordion w-100 mt-4" id="basicAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch1">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch1" aria-expanded="false" aria-controls="collapseOne">
+                Vehicle Title Type
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch1" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch2">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch2" aria-expanded="false" aria-controls="collapseTwo">
+                Odometer
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch2" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch3">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch3" aria-expanded="false" aria-controls="collapseThree">
+                Year
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch3" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch4">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch4" aria-expanded="false" aria-controls="collapseThree">
+                Vehicle Condition Type
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch4" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch5">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch5" aria-expanded="false" aria-controls="collapseThree">
+                Search Near ZIP Code
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch5" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch6">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch6" aria-expanded="false" aria-controls="collapseThree">
+                Vehicle Type
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch6" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch7">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch7" aria-expanded="false" aria-controls="collapseThree">
+                Make
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch7" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch8">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch8" aria-expanded="false" aria-controls="collapseThree">
+                Model
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch8" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch9">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch9" aria-expanded="false" aria-controls="collapseThree">
+                Engine Type
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch9" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch10">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch10" aria-expanded="false" aria-controls="collapseThree">
+                Transmission
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch10" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch11">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch11" aria-expanded="false" aria-controls="collapseThree">
+                Fuel Type
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch11" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch12">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch12" aria-expanded="false" aria-controls="collapseThree">
+                Drive Train
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch12" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch13">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch13" aria-expanded="false" aria-controls="collapseThree">
+                Cylinder
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch13" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch14">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch14" aria-expanded="false" aria-controls="collapseThree">
+                Auction Name
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch14" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch15">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch15" aria-expanded="false" aria-controls="collapseThree">
+                Location
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch15" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch16">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch16" aria-expanded="false" aria-controls="collapseThree">
+                Body Style
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch16" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="announceSearch17">
+              <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#AnnounceSearch17" aria-expanded="false" aria-controls="collapseThree">
+                Sale Date
+              </button>
+              <a href="#">Reset</a>
+            </h2>
+            <div id="AnnounceSearch17" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-mdb-parent="#basicAccordion">
+              <div class="accordion-body">
+                <input type="text" class="accordion-search-input" placeholder="Search..." />
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="clean_title">Clean Title (15)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="non_repairable">NonRepairable (2)</label>
+                </div>
+                <div class="accordion-checkbox">
+                  <input type="checkbox" id="clean_title" />
+                  <label for="salvage_title">Salvage Title (53)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 d-flex align-items-center justify-content-center mobile-filter-search-button">
+          <button>Search</button>
+        </div>
+
+
+
+      </form>
+
+      <!-- ALL ANNOUNCE2 LEFT MOBILE -->
+      <div class="all-announce2-left-mobile">
+        <div class="announce-filter-mobile">
+          <div id="mobile_search_filter">Filter +</div>
+          <div>2008-2010<img src="./img/delete.png" alt="delete"></div>
+          <div>BMW<img src="./img/delete.png" alt="delete"></div>
+          <div>Red<img src="./img/delete.png" alt="delete"></div>
+          <div>Hybrid<img src="./img/delete.png" alt="delete"></div>
+          <div>2000-2019<img src="./img/delete.png" alt="delete"></div>
+          <div>Mercedes<img src="./img/delete.png" alt="delete"></div>
+          <div>Yellow<img src="./img/delete.png" alt="delete"></div>
+          <div>Hybrid<img src="./img/delete.png" alt="delete"></div>
+          <div>2010-2020<img src="./img/delete.png" alt="delete"></div>
+          <div>Ferrari<img src="./img/delete.png" alt="delete"></div>
+          <div>Black<img src="./img/delete.png" alt="delete"></div>
+        </div>
+      </div>
+
+
+
+
+      <div class="container all-announces2-container">
+        <div class="row all-announces2-header-row">
+          <div class="col-2 all-announces2-header-col">
+            <div class="announces-headers1">Image</div>
+          </div>
+          <div class="col-2 all-announces2-header-col">
+            <div class="announces-headers">Lot Info</div>
+          </div>
+          <div class="col-2 all-announces2-header-col">
+            <div class="announces-headers">Vehicle Info</div>
+          </div>
+          <div class="col-2 all-announces2-header-col">
+            <div class="announces-headers">Condition</div>
+          </div>
+          <div class="col-2 all-announces2-header-col">
+            <div class="announces-headers">Sale Info</div>
+          </div>
+          <div class="col-2 all-announces2-header-col">
+            <div class="announces-headers6">Bids</div>
+          </div>
+        </div>
+        <div class="row mt-2 all-announces2-card-row">
+          <div class="col-md-2 all-announces2-card-col1">
+            <div class="owl-carousel owl-theme w-100">
+              <div class="card all-announces2-card">
+                <img
+                  class="card-img"
+                  src="./img/all-announces-card.png"
+                  alt="all-announces-card"
+                />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/auto.webp" alt="auto" />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/worksImg.webp" alt="works" />
+              </div>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-lot-info">
+              <h3>2008 SAAB 9-3 2.0T</h3>
+              <div>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <a href="#">Watch</a>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-vehicle-info">
+              <p>Odometer</p>
+              <div>
+                <span>106325</span>
+                <span>(ACTUAL)</span>
+              </div>
+              <p>Estimated Retail Value</p>
+              <span>$10,070.00 USD</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-condition">
+              <span>Salvage Title ( SC - NJ )</span>
+              <span>Rear End Damage</span>
+              <span>Keys Available</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-sail-info">
+              <h3>NJ - TRENTON</h3>
+              <p>C / 3094 / 1C040</p>
+              <span>Item#: 3094</span>
+              <h4>Auction in 0D 4H 3min</h4>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-bids">
+              <p>Current Bid:</p>
+              <h3>$425.00 <span>USD</span></h3>
+              <a href="./add-inner.html" class="announce-card-bid-now">Bid Now</a>
+              <a href="./add-inner.html" class="announce-card-buy-now">Details</a>
+            </div>
+          </div>
+          <div class="all-announce-mobile-col">
+            <div class="all-announce-mobile-content">
+              <div class="all-announce-mobile-model">
+                <h3>2008 SAAB 9-3 2.0T</h3>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <div class="all-announce-mobile-price">
+                <p>Current Bid:</p>
+                <h3>$425.00 <span>USD</span></h3>
+              </div>
+            </div>
+            <div class="all-announce-mobile-buttons">
+              <a class="mobile-buy-now" href="#">Buy Now</a>
+              <a class="mobile-bid-now" href="#">Bid Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 all-announces2-card-row">
+          <div class="col-md-2 all-announces2-card-col1">
+            <div class="owl-carousel owl-theme w-100">
+              <div class="card all-announces2-card">
+                <img
+                  class="card-img"
+                  src="./img/all-announces-card.png"
+                  alt="all-announces-card"
+                />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/auto.webp" alt="auto" />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/worksImg.webp" alt="works" />
+              </div>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-lot-info">
+              <h3>2008 SAAB 9-3 2.0T</h3>
+              <div>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <a href="#">Watch</a>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-vehicle-info">
+              <p>Odometer</p>
+              <div>
+                <span>106325</span>
+                <span>(ACTUAL)</span>
+              </div>
+              <p>Estimated Retail Value</p>
+              <span>$10,070.00 USD</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-condition">
+              <span>Salvage Title ( SC - NJ )</span>
+              <span>Rear End Damage</span>
+              <span>Keys Available</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-sail-info">
+              <h3>NJ - TRENTON</h3>
+              <p>C / 3094 / 1C040</p>
+              <span>Item#: 3094</span>
+              <h4>Auction in 0D 4H 3min</h4>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-bids">
+              <p>Current Bid:</p>
+              <h3>$425.00 <span>USD</span></h3>
+              <a href="./add-inner.html" class="announce-card-bid-now">Bid Now</a>
+              <a href="./add-inner.html" class="announce-card-buy-now">Details</a>
+            </div>
+          </div>
+          <div class="all-announce-mobile-col">
+            <div class="all-announce-mobile-content">
+              <div class="all-announce-mobile-model">
+                <h3>2008 SAAB 9-3 2.0T</h3>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <div class="all-announce-mobile-price">
+                <p>Current Bid:</p>
+                <h3>$425.00 <span>USD</span></h3>
+              </div>
+            </div>
+            <div class="all-announce-mobile-buttons">
+              <a class="mobile-buy-now" href="#">Buy Now</a>
+              <a class="mobile-bid-now" href="#">Bid Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 all-announces2-card-row">
+          <div class="col-md-2 all-announces2-card-col1">
+            <div class="owl-carousel owl-theme w-100">
+              <div class="card all-announces2-card">
+                <img
+                  class="card-img"
+                  src="./img/all-announces-card.png"
+                  alt="all-announces-card"
+                />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/auto.webp" alt="auto" />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/worksImg.webp" alt="works" />
+              </div>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-lot-info">
+              <h3>2008 SAAB 9-3 2.0T</h3>
+              <div>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <a href="#">Watch</a>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-vehicle-info">
+              <p>Odometer</p>
+              <div>
+                <span>106325</span>
+                <span>(ACTUAL)</span>
+              </div>
+              <p>Estimated Retail Value</p>
+              <span>$10,070.00 USD</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-condition">
+              <span>Salvage Title ( SC - NJ )</span>
+              <span>Rear End Damage</span>
+              <span>Keys Available</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-sail-info">
+              <h3>NJ - TRENTON</h3>
+              <p>C / 3094 / 1C040</p>
+              <span>Item#: 3094</span>
+              <h4>Auction in 0D 4H 3min</h4>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-bids">
+              <p>Current Bid:</p>
+              <h3>$425.00 <span>USD</span></h3>
+              <a href="./add-inner.html" class="announce-card-bid-now">Bid Now</a>
+              <a href="./add-inner.html" class="announce-card-buy-now">Details</a>
+            </div>
+          </div>
+          <div class="all-announce-mobile-col">
+            <div class="all-announce-mobile-content">
+              <div class="all-announce-mobile-model">
+                <h3>2008 SAAB 9-3 2.0T</h3>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <div class="all-announce-mobile-price">
+                <p>Current Bid:</p>
+                <h3>$425.00 <span>USD</span></h3>
+              </div>
+            </div>
+            <div class="all-announce-mobile-buttons">
+              <a class="mobile-buy-now" href="#">Buy Now</a>
+              <a class="mobile-bid-now" href="#">Bid Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 all-announces2-card-row">
+          <div class="col-md-2 all-announces2-card-col1">
+            <div class="owl-carousel owl-theme w-100">
+              <div class="card all-announces2-card">
+                <img
+                  class="card-img"
+                  src="./img/all-announces-card.png"
+                  alt="all-announces-card"
+                />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/auto.webp" alt="auto" />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/worksImg.webp" alt="works" />
+              </div>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-lot-info">
+              <h3>2008 SAAB 9-3 2.0T</h3>
+              <div>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <a href="#">Watch</a>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-vehicle-info">
+              <p>Odometer</p>
+              <div>
+                <span>106325</span>
+                <span>(ACTUAL)</span>
+              </div>
+              <p>Estimated Retail Value</p>
+              <span>$10,070.00 USD</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-condition">
+              <span>Salvage Title ( SC - NJ )</span>
+              <span>Rear End Damage</span>
+              <span>Keys Available</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-sail-info">
+              <h3>NJ - TRENTON</h3>
+              <p>C / 3094 / 1C040</p>
+              <span>Item#: 3094</span>
+              <h4>Auction in 0D 4H 3min</h4>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-bids">
+              <p>Current Bid:</p>
+              <h3>$425.00 <span>USD</span></h3>
+              <a href="./add-inner.html" class="announce-card-bid-now">Bid Now</a>
+              <a href="./add-inner.html" class="announce-card-buy-now">Details</a>
+            </div>
+          </div>
+          <div class="all-announce-mobile-col">
+            <div class="all-announce-mobile-content">
+              <div class="all-announce-mobile-model">
+                <h3>2008 SAAB 9-3 2.0T</h3>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <div class="all-announce-mobile-price">
+                <p>Current Bid:</p>
+                <h3>$425.00 <span>USD</span></h3>
+              </div>
+            </div>
+            <div class="all-announce-mobile-buttons">
+              <a class="mobile-buy-now" href="#">Buy Now</a>
+              <a class="mobile-bid-now" href="#">Bid Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 all-announces2-card-row">
+          <div class="col-md-2 all-announces2-card-col1">
+            <div class="owl-carousel owl-theme w-100">
+              <div class="card all-announces2-card">
+                <img
+                  class="card-img"
+                  src="./img/all-announces-card.png"
+                  alt="all-announces-card"
+                />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/auto.webp" alt="auto" />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/worksImg.webp" alt="works" />
+              </div>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-lot-info">
+              <h3>2008 SAAB 9-3 2.0T</h3>
+              <div>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <a href="#">Watch</a>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-vehicle-info">
+              <p>Odometer</p>
+              <div>
+                <span>106325</span>
+                <span>(ACTUAL)</span>
+              </div>
+              <p>Estimated Retail Value</p>
+              <span>$10,070.00 USD</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-condition">
+              <span>Salvage Title ( SC - NJ )</span>
+              <span>Rear End Damage</span>
+              <span>Keys Available</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-sail-info">
+              <h3>NJ - TRENTON</h3>
+              <p>C / 3094 / 1C040</p>
+              <span>Item#: 3094</span>
+              <h4>Auction in 0D 4H 3min</h4>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-bids">
+              <p>Current Bid:</p>
+              <h3>$425.00 <span>USD</span></h3>
+              <a href="./add-inner.html" class="announce-card-bid-now">Bid Now</a>
+              <a href="./add-inner.html" class="announce-card-buy-now">Details</a>
+            </div>
+          </div>
+          <div class="all-announce-mobile-col">
+            <div class="all-announce-mobile-content">
+              <div class="all-announce-mobile-model">
+                <h3>2008 SAAB 9-3 2.0T</h3>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <div class="all-announce-mobile-price">
+                <p>Current Bid:</p>
+                <h3>$425.00 <span>USD</span></h3>
+              </div>
+            </div>
+            <div class="all-announce-mobile-buttons">
+              <a class="mobile-buy-now" href="#">Buy Now</a>
+              <a class="mobile-bid-now" href="#">Bid Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 all-announces2-card-row">
+          <div class="col-md-2 all-announces2-card-col1">
+            <div class="owl-carousel owl-theme w-100">
+              <div class="card all-announces2-card">
+                <img
+                  class="card-img"
+                  src="./img/all-announces-card.png"
+                  alt="all-announces-card"
+                />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/auto.webp" alt="auto" />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/worksImg.webp" alt="works" />
+              </div>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-lot-info">
+              <h3>2008 SAAB 9-3 2.0T</h3>
+              <div>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <a href="#">Watch</a>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-vehicle-info">
+              <p>Odometer</p>
+              <div>
+                <span>106325</span>
+                <span>(ACTUAL)</span>
+              </div>
+              <p>Estimated Retail Value</p>
+              <span>$10,070.00 USD</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-condition">
+              <span>Salvage Title ( SC - NJ )</span>
+              <span>Rear End Damage</span>
+              <span>Keys Available</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-sail-info">
+              <h3>NJ - TRENTON</h3>
+              <p>C / 3094 / 1C040</p>
+              <span>Item#: 3094</span>
+              <h4>Auction in 0D 4H 3min</h4>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-bids">
+              <p>Current Bid:</p>
+              <h3>$425.00 <span>USD</span></h3>
+              <a href="./add-inner.html" class="announce-card-bid-now">Bid Now</a>
+              <a href="./add-inner.html" class="announce-card-buy-now">Details</a>
+            </div>
+          </div>
+          <div class="all-announce-mobile-col">
+            <div class="all-announce-mobile-content">
+              <div class="all-announce-mobile-model">
+                <h3>2008 SAAB 9-3 2.0T</h3>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <div class="all-announce-mobile-price">
+                <p>Current Bid:</p>
+                <h3>$425.00 <span>USD</span></h3>
+              </div>
+            </div>
+            <div class="all-announce-mobile-buttons">
+              <a class="mobile-buy-now" href="#">Buy Now</a>
+              <a class="mobile-bid-now" href="#">Bid Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 all-announces2-card-row">
+          <div class="col-md-2 all-announces2-card-col1">
+            <div class="owl-carousel owl-theme w-100">
+              <div class="card all-announces2-card">
+                <img
+                  class="card-img"
+                  src="./img/all-announces-card.png"
+                  alt="all-announces-card"
+                />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/auto.webp" alt="auto" />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/worksImg.webp" alt="works" />
+              </div>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-lot-info">
+              <h3>2008 SAAB 9-3 2.0T</h3>
+              <div>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <a href="#">Watch</a>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-vehicle-info">
+              <p>Odometer</p>
+              <div>
+                <span>106325</span>
+                <span>(ACTUAL)</span>
+              </div>
+              <p>Estimated Retail Value</p>
+              <span>$10,070.00 USD</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-condition">
+              <span>Salvage Title ( SC - NJ )</span>
+              <span>Rear End Damage</span>
+              <span>Keys Available</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-sail-info">
+              <h3>NJ - TRENTON</h3>
+              <p>C / 3094 / 1C040</p>
+              <span>Item#: 3094</span>
+              <h4>Auction in 0D 4H 3min</h4>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-bids">
+              <p>Current Bid:</p>
+              <h3>$425.00 <span>USD</span></h3>
+              <a href="./add-inner.html" class="announce-card-bid-now">Bid Now</a>
+              <a href="./add-inner.html" class="announce-card-buy-now">Details</a>
+            </div>
+          </div>
+          <div class="all-announce-mobile-col">
+            <div class="all-announce-mobile-content">
+              <div class="all-announce-mobile-model">
+                <h3>2008 SAAB 9-3 2.0T</h3>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <div class="all-announce-mobile-price">
+                <p>Current Bid:</p>
+                <h3>$425.00 <span>USD</span></h3>
+              </div>
+            </div>
+            <div class="all-announce-mobile-buttons">
+              <a class="mobile-buy-now" href="#">Buy Now</a>
+              <a class="mobile-bid-now" href="#">Bid Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 all-announces2-card-row">
+          <div class="col-md-2 all-announces2-card-col1">
+            <div class="owl-carousel owl-theme w-100">
+              <div class="card all-announces2-card">
+                <img
+                  class="card-img"
+                  src="./img/all-announces-card.png"
+                  alt="all-announces-card"
+                />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/auto.webp" alt="auto" />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/worksImg.webp" alt="works" />
+              </div>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-lot-info">
+              <h3>2008 SAAB 9-3 2.0T</h3>
+              <div>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <a href="#">Watch</a>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-vehicle-info">
+              <p>Odometer</p>
+              <div>
+                <span>106325</span>
+                <span>(ACTUAL)</span>
+              </div>
+              <p>Estimated Retail Value</p>
+              <span>$10,070.00 USD</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-condition">
+              <span>Salvage Title ( SC - NJ )</span>
+              <span>Rear End Damage</span>
+              <span>Keys Available</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-sail-info">
+              <h3>NJ - TRENTON</h3>
+              <p>C / 3094 / 1C040</p>
+              <span>Item#: 3094</span>
+              <h4>Auction in 0D 4H 3min</h4>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-bids">
+              <p>Current Bid:</p>
+              <h3>$425.00 <span>USD</span></h3>
+              <a href="./add-inner.html" class="announce-card-bid-now">Bid Now</a>
+              <a href="./add-inner.html" class="announce-card-buy-now">Details</a>
+            </div>
+          </div>
+          <div class="all-announce-mobile-col">
+            <div class="all-announce-mobile-content">
+              <div class="all-announce-mobile-model">
+                <h3>2008 SAAB 9-3 2.0T</h3>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <div class="all-announce-mobile-price">
+                <p>Current Bid:</p>
+                <h3>$425.00 <span>USD</span></h3>
+              </div>
+            </div>
+            <div class="all-announce-mobile-buttons">
+              <a class="mobile-buy-now" href="#">Buy Now</a>
+              <a class="mobile-bid-now" href="#">Bid Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 all-announces2-card-row">
+          <div class="col-md-2 all-announces2-card-col1">
+            <div class="owl-carousel owl-theme w-100">
+              <div class="card all-announces2-card">
+                <img
+                  class="card-img"
+                  src="./img/all-announces-card.png"
+                  alt="all-announces-card"
+                />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/auto.webp" alt="auto" />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/worksImg.webp" alt="works" />
+              </div>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-lot-info">
+              <h3>2008 SAAB 9-3 2.0T</h3>
+              <div>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <a href="#">Watch</a>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-vehicle-info">
+              <p>Odometer</p>
+              <div>
+                <span>106325</span>
+                <span>(ACTUAL)</span>
+              </div>
+              <p>Estimated Retail Value</p>
+              <span>$10,070.00 USD</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-condition">
+              <span>Salvage Title ( SC - NJ )</span>
+              <span>Rear End Damage</span>
+              <span>Keys Available</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-sail-info">
+              <h3>NJ - TRENTON</h3>
+              <p>C / 3094 / 1C040</p>
+              <span>Item#: 3094</span>
+              <h4>Auction in 0D 4H 3min</h4>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-bids">
+              <p>Current Bid:</p>
+              <h3>$425.00 <span>USD</span></h3>
+              <a href="./add-inner.html" class="announce-card-bid-now">Bid Now</a>
+              <a href="./add-inner.html" class="announce-card-buy-now">Details</a>
+            </div>
+          </div>
+          <div class="all-announce-mobile-col">
+            <div class="all-announce-mobile-content">
+              <div class="all-announce-mobile-model">
+                <h3>2008 SAAB 9-3 2.0T</h3>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <div class="all-announce-mobile-price">
+                <p>Current Bid:</p>
+                <h3>$425.00 <span>USD</span></h3>
+              </div>
+            </div>
+            <div class="all-announce-mobile-buttons">
+              <a class="mobile-buy-now" href="#">Buy Now</a>
+              <a class="mobile-bid-now" href="#">Bid Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 all-announces2-card-row">
+          <div class="col-md-2 all-announces2-card-col1">
+            <div class="owl-carousel owl-theme w-100">
+              <div class="card all-announces2-card">
+                <img
+                  class="card-img"
+                  src="./img/all-announces-card.png"
+                  alt="all-announces-card"
+                />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/auto.webp" alt="auto" />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/worksImg.webp" alt="works" />
+              </div>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-lot-info">
+              <h3>2008 SAAB 9-3 2.0T</h3>
+              <div>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <a href="#">Watch</a>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-vehicle-info">
+              <p>Odometer</p>
+              <div>
+                <span>106325</span>
+                <span>(ACTUAL)</span>k
+              </div>
+              <p>Estimated Retail Value</p>
+              <span>$10,070.00 USD</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-condition">
+              <span>Salvage Title ( SC - NJ )</span>
+              <span>Rear End Damage</span>
+              <span>Keys Available</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-sail-info">
+              <h3>NJ - TRENTON</h3>
+              <p>C / 3094 / 1C040</p>
+              <span>Item#: 3094</span>
+              <h4>Auction in 0D 4H 3min</h4>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-bids">
+              <p>Current Bid:</p>
+              <h3>$425.00 <span>USD</span></h3>
+              <a href="./add-inner.html" class="announce-card-bid-now">Bid Now</a>
+              <a href="./add-inner.html" class="announce-card-buy-now">Details</a>
+            </div>
+          </div>
+          <div class="all-announce-mobile-col">
+            <div class="all-announce-mobile-content">
+              <div class="all-announce-mobile-model">
+                <h3>2008 SAAB 9-3 2.0T</h3>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <div class="all-announce-mobile-price">
+                <p>Current Bid:</p>
+                <h3>$425.00 <span>USD</span></h3>
+              </div>
+            </div>
+            <div class="all-announce-mobile-buttons">
+              <a class="mobile-buy-now" href="#">Buy Now</a>
+              <a class="mobile-bid-now" href="#">Bid Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 all-announces2-card-row">
+          <div class="col-md-2 all-announces2-card-col1">
+            <div class="owl-carousel owl-theme w-100">
+              <div class="card all-announces2-card">
+                <img
+                  class="card-img"
+                  src="./img/all-announces-card.png"
+                  alt="all-announces-card"
+                />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/auto.webp" alt="auto" />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/worksImg.webp" alt="works" />
+              </div>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-lot-info">
+              <h3>2008 SAAB 9-3 2.0T</h3>
+              <div>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <a href="#">Watch</a>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-vehicle-info">
+              <p>Odometer</p>
+              <div>
+                <span>106325</span>
+                <span>(ACTUAL)</span>
+              </div>
+              <p>Estimated Retail Value</p>
+              <span>$10,070.00 USD</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-condition">
+              <span>Salvage Title ( SC - NJ )</span>
+              <span>Rear End Damage</span>
+              <span>Keys Available</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-sail-info">
+              <h3>NJ - TRENTON</h3>
+              <p>C / 3094 / 1C040</p>
+              <span>Item#: 3094</span>
+              <h4>Auction in 0D 4H 3min</h4>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-bids">
+              <p>Current Bid:</p>
+              <h3>$425.00 <span>USD</span></h3>
+              <a href="./add-inner.html" class="announce-card-bid-now">Bid Now</a>
+              <a href="./add-inner.html" class="announce-card-buy-now">Details</a>
+            </div>
+          </div>
+          <div class="all-announce-mobile-col">
+            <div class="all-announce-mobile-content">
+              <div class="all-announce-mobile-model">
+                <h3>2008 SAAB 9-3 2.0T</h3>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <div class="all-announce-mobile-price">
+                <p>Current Bid:</p>
+                <h3>$425.00 <span>USD</span></h3>
+              </div>
+            </div>
+            <div class="all-announce-mobile-buttons">
+              <a class="mobile-buy-now" href="#">Buy Now</a>
+              <a class="mobile-bid-now" href="#">Bid Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 all-announces2-card-row">
+          <div class="col-md-2 all-announces2-card-col1">
+            <div class="owl-carousel owl-theme w-100">
+              <div class="card all-announces2-card">
+                <img
+                  class="card-img"
+                  src="./img/all-announces-card.png"
+                  alt="all-announces-card"
+                />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/auto.webp" alt="auto" />
+              </div>
+              <div class="card all-announces2-card">
+                <img class="card-img" src="./img/worksImg.webp" alt="works" />
+              </div>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-lot-info">
+              <h3>2008 SAAB 9-3 2.0T</h3>
+              <div>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <a href="#">Watch</a>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announce-vehicle-info">
+              <p>Odometer</p>
+              <div>
+                <span>106325</span>
+                <span>(ACTUAL)</span>
+              </div>
+              <p>Estimated Retail Value</p>
+              <span>$10,070.00 USD</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-condition">
+              <span>Salvage Title ( SC - NJ )</span>
+              <span>Rear End Damage</span>
+              <span>Keys Available</span>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-sail-info">
+              <h3>NJ - TRENTON</h3>
+              <p>C / 3094 / 1C040</p>
+              <span>Item#: 3094</span>
+              <h4>Auction in 0D 4H 3min</h4>
+            </div>
+          </div>
+          <div class="col-2 all-announces2-card-col">
+            <div class="announces-bids">
+              <p>Current Bid:</p>
+              <h3>$425.00 <span>USD</span></h3>
+              <a href="./add-inner.html" class="announce-card-bid-now">Bid Now</a>
+              <a href="./add-inner.html" class="announce-card-buy-now">Details</a>
+            </div>
+          </div>
+          <div class="all-announce-mobile-col">
+            <div class="all-announce-mobile-content">
+              <div class="all-announce-mobile-model">
+                <h3>2008 SAAB 9-3 2.0T</h3>
+                <p>Lot #&nbsp;<span>60397482</span></p>
+              </div>
+              <div class="all-announce-mobile-price">
+                <p>Current Bid:</p>
+                <h3>$425.00 <span>USD</span></h3>
+              </div>
+            </div>
+            <div class="all-announce-mobile-buttons">
+              <a class="mobile-buy-now" href="#">Buy Now</a>
+              <a class="mobile-bid-now" href="#">Bid Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="all-announces2-right"></div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer">
+        <img
+          class="footer-top-img"
+          style="width: 100%"
+          src="./img/top.png"
+          alt=""
+        />
+        <div class="footer-container">
+          <div class="footer-top">
+            <div class="cat">
+              <h2>Categories</h2>
+              <a href="#">Axtarış</a>
+              <a href="#">Bütün Elanlar</a>
+              <a href="#">Bugün Oynanılanlar</a>
+              <a href="./calendar.html">Auksion Kalendari</a>
+              <a href="#">Ağır Texnikalar</a>
+              <a href="./add-announce.html">Elan Yerləşdir</a>
+            </div>
+            <div class="about">
+              <h2>About</h2>
+              <a href="#">Necə İşləyir</a>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">Qiymətləndirmə Xidməti</a>
+            </div>
+            <div class="contact">
+              <div class="contact1">
+                <h2>Bizimlə Əlaqə</h2>
+                <div class="col1">
+                  <img src="./img/tel.png" alt="" />
+                  <span>(646) 663-4575</span>
+                </div>
+                <div class="col2">
+                  <img src="./img/tea.png" alt="" />
+                  <span>(646) 663-4575</span>
+                </div>
+                <div class="col3">
+                  <img src="./img/mes.png" alt="" />
+                  <span>help@engotheme.com</span>
+                </div>
+                <div class="col4">
+                  <img src="./img/tg.png" alt="" />
+                  <span>1201 Broadway Suite</span>
+                </div>
+              </div>
+              <div class="contact2">
+                <a href="#" class="fb">
+                  <img src="./img/fb.png" alt="" />
+                </a>
+                <a href="#" class="tw">
+                  <img src="./img/tw.png" alt="" />
+                </a>
+                <a href="#" class="in">
+                  <img src="./img/in.png" alt="" />
+                </a>
+                <a href="#" class="link">
+                  <img src="./img/link.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <hr class="footer-hr" color="#D9D9D9" />
+            <div class="footer-copy">
+              <img src="./img/logo.png" alt="" />
+              <p>© Copyright 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- OWL CAROUSEL JS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/mdb.min.js"></script>
+    <script src="./js/jquery.js" type="text/javascript"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/all-announces2.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
